@@ -286,7 +286,6 @@ h1, h2, h3, h4 {
     position: absolute;
     width: auto;
     max-width: none;
-    filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.3));
 }
 
 /* Characters BEHIND the title */
@@ -319,7 +318,6 @@ h1, h2, h3, h4 {
 .parallax-title {
     max-width: 70%;
     height: auto;
-    filter: drop-shadow(0 8px 30px rgba(0, 0, 0, 0.4));
 }
 
 /* Gradient overlay for better text readability */
@@ -396,23 +394,36 @@ h1, h2, h3, h4 {
 /* Responsive adjustments for parallax */
 @media (max-width: 768px) {
     .parallax-tower {
-        height: 70%;
-    }
-    
-    .parallax-tower-left {
-        left: -15%;
-    }
-    
-    .parallax-tower-right {
-        right: -15%;
+        display: none; /* Hide block towers on mobile */
     }
     
     .parallax-title {
         max-width: 90%;
     }
     
-    .parallax-character {
-        display: none; /* Hide characters on mobile for cleaner look */
+    /* Show characters on mobile but position them closer together */
+    .parallax-triangle {
+        top: 15%;
+        left: 5%;
+        height: 16%;
+    }
+    
+    .parallax-cylinder {
+        top: 12%;
+        right: 5%;
+        height: 16%;
+    }
+    
+    .parallax-cube {
+        bottom: 28%;
+        left: 3%;
+        height: 20%;
+    }
+    
+    .parallax-bridge {
+        bottom: 26%;
+        right: 3%;
+        height: 18%;
     }
     
     .hero-content {
@@ -538,7 +549,7 @@ h1, h2, h3, h4 {
     }
     
     .feature-overlay-text {
-        bottom: 4%;
+        bottom: 12%;
     }
     
     .feature-overlay-text h3 {
