@@ -399,37 +399,37 @@ h1, h2, h3, h4 {
     
     .parallax-title {
         max-width: 90%;
-        margin-top: -15%; /* Move title up so it's not obscured by characters */
+        margin-top: -10%; /* Move title up slightly */
     }
     
-    /* Show characters on mobile but position them closer together */
+    /* Characters behind title - shrunk 10% and positioned closer to title */
     .parallax-triangle {
-        top: 15%;
+        top: 22%;
         left: 5%;
-        height: 16%;
+        height: 14%;
     }
     
     .parallax-cylinder {
-        top: 12%;
+        top: 20%;
         right: 5%;
-        height: 16%;
+        height: 14%;
     }
     
-    /* Position front characters lower so they don't obscure the title */
+    /* Characters in front of title - shrunk 10% and positioned closer to title */
     .parallax-cube {
-        bottom: 18%;
+        bottom: 28%;
         left: 3%;
-        height: 20%;
-    }
-    
-    .parallax-bridge {
-        bottom: 16%;
-        right: 3%;
         height: 18%;
     }
     
+    .parallax-bridge {
+        bottom: 26%;
+        right: 3%;
+        height: 16%;
+    }
+    
     .hero-content {
-        margin-top: 55vh; /* Push tagline and button further down */
+        margin-top: 62vh; /* Push tagline and button further down below characters */
     }
 }
 
