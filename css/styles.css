@@ -399,6 +399,7 @@ h1, h2, h3, h4 {
     
     .parallax-title {
         max-width: 90%;
+        margin-top: -15%; /* Move title up so it's not obscured by characters */
     }
     
     /* Show characters on mobile but position them closer together */
@@ -414,20 +415,21 @@ h1, h2, h3, h4 {
         height: 16%;
     }
     
+    /* Position front characters lower so they don't obscure the title */
     .parallax-cube {
-        bottom: 28%;
+        bottom: 18%;
         left: 3%;
         height: 20%;
     }
     
     .parallax-bridge {
-        bottom: 26%;
+        bottom: 16%;
         right: 3%;
         height: 18%;
     }
     
     .hero-content {
-        margin-top: 45vh;
+        margin-top: 55vh; /* Push tagline and button further down */
     }
 }
 
