@@ -10,5 +10,718 @@
     "maxBombs": 1,
     "par": 1,
     "showAdOnCompletion": false,
-    "placements": []
+    "cameraFramingVolume": {
+        "position": {
+            "x": 0.0,
+            "y": 1.2130000591278077,
+            "z": 0.0
+        },
+        "rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+        },
+        "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        },
+        "size": {
+            "x": 4.0,
+            "y": 3.0,
+            "z": 4.0
+        },
+        "lookAtOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        }
+    },
+    "placements": [
+        {
+            "prefabId": "Blockhead-Cube",
+            "position": {
+                "x": 0.0,
+                "y": 2.200000047683716,
+                "z": 0.20000000298023225
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -0.7071068286895752,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "Blockhead",
+            "overrides": {
+                "allowBombDrop": true,
+                "enableImpactFracture": false,
+                "impactThreshold": 2.0,
+                "rearmCooldown": 0.5,
+                "enableCustomFriction": false,
+                "customFriction": 0.6000000238418579,
+                "enableCustomMass": false,
+                "customMass": 1.0,
+                "enableCustomLinearDrag": false,
+                "customLinearDrag": 0.0,
+                "enableCustomAngularDrag": false,
+                "customAngularDrag": 0.05000000074505806,
+                "overrideBlockheadImpactDeathSpeed": false,
+                "blockheadImpactDeathSpeed": 0.0
+            }
+        },
+        {
+            "prefabId": "StopSign",
+            "position": {
+                "x": -1.399999976158142,
+                "y": 0.0,
+                "z": -1.399999976158142
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.7071068286895752,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "",
+            "overrides": {
+                "allowBombDrop": true,
+                "enableImpactFracture": false,
+                "impactThreshold": 2.0,
+                "rearmCooldown": 0.5,
+                "enableCustomFriction": false,
+                "customFriction": 0.6000000238418579,
+                "enableCustomMass": false,
+                "customMass": 1.0,
+                "enableCustomLinearDrag": false,
+                "customLinearDrag": 0.0,
+                "enableCustomAngularDrag": false,
+                "customAngularDrag": 0.05000000074505806,
+                "overrideBlockheadImpactDeathSpeed": false,
+                "blockheadImpactDeathSpeed": 0.0
+            }
+        },
+        {
+            "prefabId": "StreetLight",
+            "position": {
+                "x": 1.399999737739563,
+                "y": 0.0,
+                "z": -1.4000000953674317
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0000014603137969970704,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "",
+            "overrides": {
+                "allowBombDrop": true,
+                "enableImpactFracture": false,
+                "impactThreshold": 2.0,
+                "rearmCooldown": 0.5,
+                "enableCustomFriction": false,
+                "customFriction": 0.6000000238418579,
+                "enableCustomMass": false,
+                "customMass": 1.0,
+                "enableCustomLinearDrag": false,
+                "customLinearDrag": 0.0,
+                "enableCustomAngularDrag": false,
+                "customAngularDrag": 0.05000000074505806,
+                "overrideBlockheadImpactDeathSpeed": false,
+                "blockheadImpactDeathSpeed": 0.0
+            }
+        },
+        {
+            "prefabId": "FencePanel",
+            "position": {
+                "x": -1.399999976158142,
+                "y": 0.0,
+                "z": 0.699999988079071
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -0.7071057558059692,
+                "z": 0.0,
+                "w": 0.7071078419685364
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "",
+            "overrides": {
+                "allowBombDrop": true,
+                "enableImpactFracture": false,
+                "impactThreshold": 2.0,
+                "rearmCooldown": 0.5,
+                "enableCustomFriction": false,
+                "customFriction": 0.6000000238418579,
+                "enableCustomMass": false,
+                "customMass": 1.0,
+                "enableCustomLinearDrag": false,
+                "customLinearDrag": 0.0,
+                "enableCustomAngularDrag": false,
+                "customAngularDrag": 0.05000000074505806,
+                "overrideBlockheadImpactDeathSpeed": false,
+                "blockheadImpactDeathSpeed": 0.0
+            }
+        },
+        {
+            "prefabId": "FencePanel",
+            "position": {
+                "x": 1.399999976158142,
+                "y": 0.0,
+                "z": 0.699999988079071
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.7071071863174439,
+                "z": 0.0,
+                "w": 0.7071064114570618
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "",
+            "overrides": {
+                "allowBombDrop": true,
+                "enableImpactFracture": false,
+                "impactThreshold": 2.0,
+                "rearmCooldown": 0.5,
+                "enableCustomFriction": false,
+                "customFriction": 0.6000000238418579,
+                "enableCustomMass": false,
+                "customMass": 1.0,
+                "enableCustomLinearDrag": false,
+                "customLinearDrag": 0.0,
+                "enableCustomAngularDrag": false,
+                "customAngularDrag": 0.05000000074505806,
+                "overrideBlockheadImpactDeathSpeed": false,
+                "blockheadImpactDeathSpeed": 0.0
+            }
+        },
+        {
+            "prefabId": "FencePanel",
+            "position": {
+                "x": -0.699999988079071,
+                "y": 0.0,
+                "z": 1.399999976158142
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0000014603137969970704,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "",
+            "overrides": {
+                "allowBombDrop": true,
+                "enableImpactFracture": false,
+                "impactThreshold": 2.0,
+                "rearmCooldown": 0.5,
+                "enableCustomFriction": false,
+                "customFriction": 0.6000000238418579,
+                "enableCustomMass": false,
+                "customMass": 1.0,
+                "enableCustomLinearDrag": false,
+                "customLinearDrag": 0.0,
+                "enableCustomAngularDrag": false,
+                "customAngularDrag": 0.05000000074505806,
+                "overrideBlockheadImpactDeathSpeed": false,
+                "blockheadImpactDeathSpeed": 0.0
+            }
+        },
+        {
+            "prefabId": "FencePanel",
+            "position": {
+                "x": 0.699999988079071,
+                "y": 0.0,
+                "z": 1.399999976158142
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0000014603137969970704,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "",
+            "overrides": {
+                "allowBombDrop": true,
+                "enableImpactFracture": false,
+                "impactThreshold": 2.0,
+                "rearmCooldown": 0.5,
+                "enableCustomFriction": false,
+                "customFriction": 0.6000000238418579,
+                "enableCustomMass": false,
+                "customMass": 1.0,
+                "enableCustomLinearDrag": false,
+                "customLinearDrag": 0.0,
+                "enableCustomAngularDrag": false,
+                "customAngularDrag": 0.05000000074505806,
+                "overrideBlockheadImpactDeathSpeed": false,
+                "blockheadImpactDeathSpeed": 0.0
+            }
+        },
+        {
+            "prefabId": "FencePost",
+            "position": {
+                "x": -1.399999976158142,
+                "y": 0.0,
+                "z": 1.399999976158142
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -0.7071057558059692,
+                "z": 0.0,
+                "w": 0.7071078419685364
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "",
+            "overrides": {
+                "allowBombDrop": true,
+                "enableImpactFracture": false,
+                "impactThreshold": 2.0,
+                "rearmCooldown": 0.5,
+                "enableCustomFriction": false,
+                "customFriction": 0.6000000238418579,
+                "enableCustomMass": false,
+                "customMass": 1.0,
+                "enableCustomLinearDrag": false,
+                "customLinearDrag": 0.0,
+                "enableCustomAngularDrag": false,
+                "customAngularDrag": 0.05000000074505806,
+                "overrideBlockheadImpactDeathSpeed": false,
+                "blockheadImpactDeathSpeed": 0.0
+            }
+        },
+        {
+            "prefabId": "FencePost",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 1.399999976158142
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -0.7071057558059692,
+                "z": 0.0,
+                "w": 0.7071078419685364
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "",
+            "overrides": {
+                "allowBombDrop": true,
+                "enableImpactFracture": false,
+                "impactThreshold": 2.0,
+                "rearmCooldown": 0.5,
+                "enableCustomFriction": false,
+                "customFriction": 0.6000000238418579,
+                "enableCustomMass": false,
+                "customMass": 1.0,
+                "enableCustomLinearDrag": false,
+                "customLinearDrag": 0.0,
+                "enableCustomAngularDrag": false,
+                "customAngularDrag": 0.05000000074505806,
+                "overrideBlockheadImpactDeathSpeed": false,
+                "blockheadImpactDeathSpeed": 0.0
+            }
+        },
+        {
+            "prefabId": "FencePost",
+            "position": {
+                "x": 1.399999976158142,
+                "y": 0.0,
+                "z": 1.399999976158142
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -0.7071057558059692,
+                "z": 0.0,
+                "w": 0.7071078419685364
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "",
+            "overrides": {
+                "allowBombDrop": true,
+                "enableImpactFracture": false,
+                "impactThreshold": 2.0,
+                "rearmCooldown": 0.5,
+                "enableCustomFriction": false,
+                "customFriction": 0.6000000238418579,
+                "enableCustomMass": false,
+                "customMass": 1.0,
+                "enableCustomLinearDrag": false,
+                "customLinearDrag": 0.0,
+                "enableCustomAngularDrag": false,
+                "customAngularDrag": 0.05000000074505806,
+                "overrideBlockheadImpactDeathSpeed": false,
+                "blockheadImpactDeathSpeed": 0.0
+            }
+        },
+        {
+            "prefabId": "FencePost",
+            "position": {
+                "x": -1.399999976158142,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -0.7071057558059692,
+                "z": 0.0,
+                "w": 0.7071078419685364
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "",
+            "overrides": {
+                "allowBombDrop": true,
+                "enableImpactFracture": false,
+                "impactThreshold": 2.0,
+                "rearmCooldown": 0.5,
+                "enableCustomFriction": false,
+                "customFriction": 0.6000000238418579,
+                "enableCustomMass": false,
+                "customMass": 1.0,
+                "enableCustomLinearDrag": false,
+                "customLinearDrag": 0.0,
+                "enableCustomAngularDrag": false,
+                "customAngularDrag": 0.05000000074505806,
+                "overrideBlockheadImpactDeathSpeed": false,
+                "blockheadImpactDeathSpeed": 0.0
+            }
+        },
+        {
+            "prefabId": "FencePost",
+            "position": {
+                "x": 1.399999976158142,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -0.7071057558059692,
+                "z": 0.0,
+                "w": 0.7071078419685364
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "",
+            "overrides": {
+                "allowBombDrop": true,
+                "enableImpactFracture": false,
+                "impactThreshold": 2.0,
+                "rearmCooldown": 0.5,
+                "enableCustomFriction": false,
+                "customFriction": 0.6000000238418579,
+                "enableCustomMass": false,
+                "customMass": 1.0,
+                "enableCustomLinearDrag": false,
+                "customLinearDrag": 0.0,
+                "enableCustomAngularDrag": false,
+                "customAngularDrag": 0.05000000074505806,
+                "overrideBlockheadImpactDeathSpeed": false,
+                "blockheadImpactDeathSpeed": 0.0
+            }
+        },
+        {
+            "prefabId": "Tree",
+            "position": {
+                "x": -0.800000011920929,
+                "y": 0.0,
+                "z": 0.800000011920929
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "",
+            "overrides": {
+                "allowBombDrop": true,
+                "enableImpactFracture": false,
+                "impactThreshold": 2.0,
+                "rearmCooldown": 0.5,
+                "enableCustomFriction": false,
+                "customFriction": 0.6000000238418579,
+                "enableCustomMass": false,
+                "customMass": 1.0,
+                "enableCustomLinearDrag": false,
+                "customLinearDrag": 0.0,
+                "enableCustomAngularDrag": false,
+                "customAngularDrag": 0.05000000074505806,
+                "overrideBlockheadImpactDeathSpeed": false,
+                "blockheadImpactDeathSpeed": 0.0
+            }
+        },
+        {
+            "prefabId": "Tree",
+            "position": {
+                "x": 0.800000011920929,
+                "y": 0.0,
+                "z": 0.800000011920929
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "",
+            "overrides": {
+                "allowBombDrop": true,
+                "enableImpactFracture": false,
+                "impactThreshold": 2.0,
+                "rearmCooldown": 0.5,
+                "enableCustomFriction": false,
+                "customFriction": 0.6000000238418579,
+                "enableCustomMass": false,
+                "customMass": 1.0,
+                "enableCustomLinearDrag": false,
+                "customLinearDrag": 0.0,
+                "enableCustomAngularDrag": false,
+                "customAngularDrag": 0.05000000074505806,
+                "overrideBlockheadImpactDeathSpeed": false,
+                "blockheadImpactDeathSpeed": 0.0
+            }
+        },
+        {
+            "prefabId": "Bush-Medium",
+            "position": {
+                "x": -1.399999976158142,
+                "y": 0.0,
+                "z": -0.6000000238418579
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.7071068286895752,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "",
+            "overrides": {
+                "allowBombDrop": true,
+                "enableImpactFracture": false,
+                "impactThreshold": 2.0,
+                "rearmCooldown": 0.5,
+                "enableCustomFriction": false,
+                "customFriction": 0.6000000238418579,
+                "enableCustomMass": false,
+                "customMass": 1.0,
+                "enableCustomLinearDrag": false,
+                "customLinearDrag": 0.0,
+                "enableCustomAngularDrag": false,
+                "customAngularDrag": 0.05000000074505806,
+                "overrideBlockheadImpactDeathSpeed": false,
+                "blockheadImpactDeathSpeed": 0.0
+            }
+        },
+        {
+            "prefabId": "Bush-Small",
+            "position": {
+                "x": 1.399999976158142,
+                "y": 0.0,
+                "z": -0.6000000238418579
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -0.7071068286895752,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "",
+            "overrides": {
+                "allowBombDrop": true,
+                "enableImpactFracture": false,
+                "impactThreshold": 2.0,
+                "rearmCooldown": 0.5,
+                "enableCustomFriction": false,
+                "customFriction": 0.6000000238418579,
+                "enableCustomMass": false,
+                "customMass": 1.0,
+                "enableCustomLinearDrag": false,
+                "customLinearDrag": 0.0,
+                "enableCustomAngularDrag": false,
+                "customAngularDrag": 0.05000000074505806,
+                "overrideBlockheadImpactDeathSpeed": false,
+                "blockheadImpactDeathSpeed": 0.0
+            }
+        },
+        {
+            "prefabId": "Vehicle-Civilian-01-Red",
+            "position": {
+                "x": -2.6000001430511476,
+                "y": -0.30000001192092898,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "",
+            "overrides": {
+                "allowBombDrop": true,
+                "enableImpactFracture": false,
+                "impactThreshold": 2.0,
+                "rearmCooldown": 0.5,
+                "enableCustomFriction": false,
+                "customFriction": 0.6000000238418579,
+                "enableCustomMass": false,
+                "customMass": 1.0,
+                "enableCustomLinearDrag": false,
+                "customLinearDrag": 0.0,
+                "enableCustomAngularDrag": false,
+                "customAngularDrag": 0.05000000074505806,
+                "overrideBlockheadImpactDeathSpeed": false,
+                "blockheadImpactDeathSpeed": 0.0
+            }
+        },
+        {
+            "prefabId": "PegdollLady-01",
+            "position": {
+                "x": 1.0,
+                "y": 0.0,
+                "z": -1.3499999046325684
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -0.7071068286895752,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "",
+            "overrides": {
+                "allowBombDrop": true,
+                "enableImpactFracture": false,
+                "impactThreshold": 2.0,
+                "rearmCooldown": 0.5,
+                "enableCustomFriction": false,
+                "customFriction": 0.6000000238418579,
+                "enableCustomMass": false,
+                "customMass": 1.0,
+                "enableCustomLinearDrag": false,
+                "customLinearDrag": 0.0,
+                "enableCustomAngularDrag": false,
+                "customAngularDrag": 0.05000000074505806,
+                "overrideBlockheadImpactDeathSpeed": false,
+                "blockheadImpactDeathSpeed": 0.0
+            }
+        },
+        {
+            "prefabId": "PegDollBoy-01",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.699999988079071
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "",
+            "overrides": {
+                "allowBombDrop": true,
+                "enableImpactFracture": false,
+                "impactThreshold": 2.0,
+                "rearmCooldown": 0.5,
+                "enableCustomFriction": false,
+                "customFriction": 0.6000000238418579,
+                "enableCustomMass": false,
+                "customMass": 1.0,
+                "enableCustomLinearDrag": false,
+                "customLinearDrag": 0.0,
+                "enableCustomAngularDrag": false,
+                "customAngularDrag": 0.05000000074505806,
+                "overrideBlockheadImpactDeathSpeed": false,
+                "blockheadImpactDeathSpeed": 0.0
+            }
+        }
+    ]
 }

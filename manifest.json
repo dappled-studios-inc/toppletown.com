@@ -6,147 +6,147 @@
             "worldName": "Christmas",
             "jsonFile": "levels/christmas_001.json",
             "minAppVersion": "0.3.0",
-            "version": 1
+            "version": 2
         },
         {
             "levelId": "farm_001",
             "worldName": "Farm",
             "jsonFile": "levels/farm_001.json",
             "minAppVersion": "0.3.0",
-            "version": 1
+            "version": 2
         },
         {
             "levelId": "suburb_003",
             "worldName": "Suburb",
             "jsonFile": "levels/suburb_003.json",
             "minAppVersion": "0.3.0",
-            "version": 1
+            "version": 2
         },
         {
             "levelId": "suburb_004",
             "worldName": "Suburb",
             "jsonFile": "levels/suburb_004.json",
             "minAppVersion": "0.3.0",
-            "version": 1
+            "version": 2
         },
         {
             "levelId": "suburb_005",
             "worldName": "Suburb",
             "jsonFile": "levels/suburb_005.json",
             "minAppVersion": "0.3.0",
-            "version": 1
+            "version": 2
         },
         {
             "levelId": "suburb_006",
             "worldName": "Suburb",
             "jsonFile": "levels/suburb_006.json",
             "minAppVersion": "0.3.0",
-            "version": 1
+            "version": 2
         },
         {
             "levelId": "suburb_007",
             "worldName": "Suburb",
             "jsonFile": "levels/suburb_007.json",
             "minAppVersion": "0.3.0",
-            "version": 1
+            "version": 2
         },
         {
             "levelId": "suburb_008",
             "worldName": "Suburb",
             "jsonFile": "levels/suburb_008.json",
             "minAppVersion": "0.3.0",
-            "version": 1
+            "version": 2
         },
         {
             "levelId": "suburb_009",
             "worldName": "Suburb",
             "jsonFile": "levels/suburb_009.json",
             "minAppVersion": "0.3.0",
-            "version": 1
+            "version": 2
         },
         {
             "levelId": "suburb_010",
             "worldName": "Suburb",
             "jsonFile": "levels/suburb_010.json",
             "minAppVersion": "0.3.0",
-            "version": 1
+            "version": 2
         },
         {
             "levelId": "suburb_011",
             "worldName": "Suburb",
             "jsonFile": "levels/suburb_011.json",
             "minAppVersion": "0.3.0",
-            "version": 1
+            "version": 2
         },
         {
             "levelId": "suburb_012",
             "worldName": "Suburb",
             "jsonFile": "levels/suburb_012.json",
             "minAppVersion": "0.3.0",
-            "version": 1
+            "version": 2
         },
         {
             "levelId": "suburb_013",
             "worldName": "Suburb",
             "jsonFile": "levels/suburb_013.json",
             "minAppVersion": "0.3.0",
-            "version": 1
+            "version": 2
         },
         {
             "levelId": "suburb_014",
             "worldName": "Suburb",
             "jsonFile": "levels/suburb_014.json",
             "minAppVersion": "0.3.0",
-            "version": 1
+            "version": 2
         },
         {
             "levelId": "suburb_015",
             "worldName": "Suburb",
             "jsonFile": "levels/suburb_015.json",
             "minAppVersion": "0.3.0",
-            "version": 1
+            "version": 2
         },
         {
             "levelId": "suburb_016",
             "worldName": "Suburb",
             "jsonFile": "levels/suburb_016.json",
             "minAppVersion": "0.3.0",
-            "version": 1
+            "version": 2
         },
         {
             "levelId": "suburb_017",
             "worldName": "Suburb",
             "jsonFile": "levels/suburb_017.json",
             "minAppVersion": "0.3.0",
-            "version": 1
+            "version": 2
         },
         {
             "levelId": "suburb_018",
             "worldName": "Suburb",
             "jsonFile": "levels/suburb_018.json",
             "minAppVersion": "0.3.0",
-            "version": 1
+            "version": 2
         },
         {
             "levelId": "suburb_019",
             "worldName": "Suburb",
             "jsonFile": "levels/suburb_019.json",
             "minAppVersion": "0.3.0",
-            "version": 1
+            "version": 2
         },
         {
             "levelId": "suburb_020",
             "worldName": "Suburb",
             "jsonFile": "levels/suburb_020.json",
             "minAppVersion": "0.3.0",
-            "version": 1
+            "version": 2
         },
         {
             "levelId": "suburb_021",
             "worldName": "Suburb",
             "jsonFile": "levels/suburb_021.json",
             "minAppVersion": "0.3.0",
-            "version": 1
+            "version": 2
         }
     ]
 }

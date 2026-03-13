@@ -10,5 +10,250 @@
     "maxBombs": 2,
     "par": 1,
     "showAdOnCompletion": true,
-    "placements": []
+    "cameraFramingVolume": {
+        "position": {
+            "x": 0.0,
+            "y": 1.3899999856948853,
+            "z": 0.0
+        },
+        "rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+        },
+        "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        },
+        "size": {
+            "x": 4.0,
+            "y": 3.5,
+            "z": 4.0
+        },
+        "lookAtOffset": {
+            "x": -0.699999988079071,
+            "y": 0.0,
+            "z": 0.0
+        }
+    },
+    "placements": [
+        {
+            "prefabId": "Blockhead-Triangle",
+            "position": {
+                "x": 0.800000011920929,
+                "y": 2.6000001430511476,
+                "z": 0.5
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "Blockhead",
+            "overrides": {
+                "allowBombDrop": true,
+                "enableImpactFracture": false,
+                "impactThreshold": 2.0,
+                "rearmCooldown": 0.5,
+                "enableCustomFriction": false,
+                "customFriction": 0.6000000238418579,
+                "enableCustomMass": false,
+                "customMass": 1.0,
+                "enableCustomLinearDrag": false,
+                "customLinearDrag": 0.0,
+                "enableCustomAngularDrag": false,
+                "customAngularDrag": 0.05000000074505806,
+                "overrideBlockheadImpactDeathSpeed": false,
+                "blockheadImpactDeathSpeed": 0.0
+            }
+        },
+        {
+            "prefabId": "Blockhead-Cube",
+            "position": {
+                "x": -0.6000000238418579,
+                "y": 2.0,
+                "z": 0.5
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -0.7071068286895752,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "Blockhead",
+            "overrides": {
+                "allowBombDrop": true,
+                "enableImpactFracture": false,
+                "impactThreshold": 2.0,
+                "rearmCooldown": 0.5,
+                "enableCustomFriction": false,
+                "customFriction": 0.6000000238418579,
+                "enableCustomMass": false,
+                "customMass": 1.0,
+                "enableCustomLinearDrag": false,
+                "customLinearDrag": 0.0,
+                "enableCustomAngularDrag": false,
+                "customAngularDrag": 0.05000000074505806,
+                "overrideBlockheadImpactDeathSpeed": false,
+                "blockheadImpactDeathSpeed": 0.0
+            }
+        },
+        {
+            "prefabId": "Seesaw",
+            "position": {
+                "x": -0.6000000238418579,
+                "y": 0.0,
+                "z": -1.0000007152557374
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.1736481636762619,
+                "w": 0.9848077893257141
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "",
+            "overrides": {
+                "allowBombDrop": true,
+                "enableImpactFracture": false,
+                "impactThreshold": 2.0,
+                "rearmCooldown": 0.5,
+                "enableCustomFriction": false,
+                "customFriction": 0.6000000238418579,
+                "enableCustomMass": false,
+                "customMass": 1.0,
+                "enableCustomLinearDrag": false,
+                "customLinearDrag": 0.0,
+                "enableCustomAngularDrag": false,
+                "customAngularDrag": 0.05000000074505806,
+                "overrideBlockheadImpactDeathSpeed": false,
+                "blockheadImpactDeathSpeed": 0.0
+            }
+        },
+        {
+            "prefabId": "StopSign",
+            "position": {
+                "x": -1.399999976158142,
+                "y": 0.0,
+                "z": 1.399999976158142
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "",
+            "overrides": {
+                "allowBombDrop": true,
+                "enableImpactFracture": false,
+                "impactThreshold": 2.0,
+                "rearmCooldown": 0.5,
+                "enableCustomFriction": false,
+                "customFriction": 0.6000000238418579,
+                "enableCustomMass": false,
+                "customMass": 1.0,
+                "enableCustomLinearDrag": false,
+                "customLinearDrag": 0.0,
+                "enableCustomAngularDrag": false,
+                "customAngularDrag": 0.05000000074505806,
+                "overrideBlockheadImpactDeathSpeed": false,
+                "blockheadImpactDeathSpeed": 0.0
+            }
+        },
+        {
+            "prefabId": "PegdollMan-01",
+            "position": {
+                "x": -2.049999952316284,
+                "y": -0.15000000596046449,
+                "z": 1.399999976158142
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "",
+            "overrides": {
+                "allowBombDrop": true,
+                "enableImpactFracture": false,
+                "impactThreshold": 2.0,
+                "rearmCooldown": 0.5,
+                "enableCustomFriction": false,
+                "customFriction": 0.6000000238418579,
+                "enableCustomMass": false,
+                "customMass": 1.0,
+                "enableCustomLinearDrag": false,
+                "customLinearDrag": 0.0,
+                "enableCustomAngularDrag": false,
+                "customAngularDrag": 0.05000000074505806,
+                "overrideBlockheadImpactDeathSpeed": false,
+                "blockheadImpactDeathSpeed": 0.0
+            }
+        },
+        {
+            "prefabId": "VehicleCop",
+            "position": {
+                "x": -2.6000001430511476,
+                "y": -0.3000200092792511,
+                "z": -0.9000000357627869
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "",
+            "overrides": {
+                "allowBombDrop": true,
+                "enableImpactFracture": false,
+                "impactThreshold": 2.0,
+                "rearmCooldown": 0.5,
+                "enableCustomFriction": false,
+                "customFriction": 0.6000000238418579,
+                "enableCustomMass": false,
+                "customMass": 1.0,
+                "enableCustomLinearDrag": false,
+                "customLinearDrag": 0.0,
+                "enableCustomAngularDrag": false,
+                "customAngularDrag": 0.05000000074505806,
+                "overrideBlockheadImpactDeathSpeed": false,
+                "blockheadImpactDeathSpeed": 0.0
+            }
+        }
+    ]
 }
