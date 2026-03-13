@@ -1,0 +1,14 @@
+{
+    "formatVersion": 1,
+    "levelId": "suburb_012",
+    "displayName": "Level_012_Suburb",
+    "worldName": "Suburb",
+    "minAppVersion": "0.3.0",
+    "environmentScene": "suburb-env-6x4-01",
+    "cameraYaw": 45.0,
+    "cameraPitch": 35.0,
+    "maxBombs": 2,
+    "par": 2,
+    "showAdOnCompletion": false,
+    "placements": []
+}
