@@ -1,5 +1,5 @@
 {
-    "formatVersion": 1,
+    "formatVersion": 2,
     "levelId": "suburb_005",
     "displayName": "Level_005_Suburb",
     "worldName": "Suburb",
@@ -38,26 +38,425 @@
             "z": 0.0
         }
     },
-    "placements": [
+    "sceneHierarchy": [
         {
-            "prefabId": "Blockhead-Cube",
-            "position": {
+            "parentIndex": -1,
+            "name": "Dynamic",
+            "localPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "localScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "",
+            "active": true,
+            "prefabId": "",
+            "overrides": {
+                "allowBombDrop": true,
+                "enableImpactFracture": false,
+                "impactThreshold": 2.0,
+                "rearmCooldown": 0.5,
+                "enableCustomFriction": false,
+                "customFriction": 0.6000000238418579,
+                "enableCustomMass": false,
+                "customMass": 1.0,
+                "enableCustomLinearDrag": false,
+                "customLinearDrag": 0.0,
+                "enableCustomAngularDrag": false,
+                "customAngularDrag": 0.05000000074505806,
+                "overrideBlockheadImpactDeathSpeed": false,
+                "blockheadImpactDeathSpeed": 0.0
+            },
+            "pathDriverTargetIndex": -1,
+            "hasWaypointPath": false,
+            "hasWaypointNode": false,
+            "hasPathStop": false,
+            "waypointPath": {
+                "childOrder": 0,
+                "loopMode": 0,
+                "autoCollectStops": true,
+                "includeNodeStops": false,
+                "waypointsRootName": "",
+                "stopsRootName": ""
+            },
+            "waypointNode": {
+                "mode": 0,
+                "filletRadius": 1.0,
+                "filletSegments": 8,
+                "crSamplesPerSegment": 12,
+                "centripetal": true,
+                "stopHere": false,
+                "dwellSeconds": 1.5,
+                "stopProjectionMax": 2.0
+            },
+            "pathStop": {
+                "dwellSeconds": 1.5,
+                "projectionMax": 3.0,
+                "group": ""
+            }
+        },
+        {
+            "parentIndex": 0,
+            "name": "Blocks",
+            "localPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "localScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "",
+            "active": true,
+            "prefabId": "",
+            "overrides": {
+                "allowBombDrop": true,
+                "enableImpactFracture": false,
+                "impactThreshold": 2.0,
+                "rearmCooldown": 0.5,
+                "enableCustomFriction": false,
+                "customFriction": 0.6000000238418579,
+                "enableCustomMass": false,
+                "customMass": 1.0,
+                "enableCustomLinearDrag": false,
+                "customLinearDrag": 0.0,
+                "enableCustomAngularDrag": false,
+                "customAngularDrag": 0.05000000074505806,
+                "overrideBlockheadImpactDeathSpeed": false,
+                "blockheadImpactDeathSpeed": 0.0
+            },
+            "pathDriverTargetIndex": -1,
+            "hasWaypointPath": false,
+            "hasWaypointNode": false,
+            "hasPathStop": false,
+            "waypointPath": {
+                "childOrder": 0,
+                "loopMode": 0,
+                "autoCollectStops": true,
+                "includeNodeStops": false,
+                "waypointsRootName": "",
+                "stopsRootName": ""
+            },
+            "waypointNode": {
+                "mode": 0,
+                "filletRadius": 1.0,
+                "filletSegments": 8,
+                "crSamplesPerSegment": 12,
+                "centripetal": true,
+                "stopHere": false,
+                "dwellSeconds": 1.5,
+                "stopProjectionMax": 2.0
+            },
+            "pathStop": {
+                "dwellSeconds": 1.5,
+                "projectionMax": 3.0,
+                "group": ""
+            }
+        },
+        {
+            "parentIndex": 1,
+            "name": "concrete-block-2x1x1",
+            "localPosition": {
+                "x": -0.800000011920929,
+                "y": 0.4000000059604645,
+                "z": 0.0
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": -0.7071057558059692,
+                "z": 0.0,
+                "w": 0.7071078419685364
+            },
+            "localScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "Concrete",
+            "active": true,
+            "prefabId": "concrete-block-2x1x1",
+            "overrides": {
+                "allowBombDrop": true,
+                "enableImpactFracture": false,
+                "impactThreshold": 2.0,
+                "rearmCooldown": 0.5,
+                "enableCustomFriction": false,
+                "customFriction": 0.6000000238418579,
+                "enableCustomMass": false,
+                "customMass": 1.0,
+                "enableCustomLinearDrag": false,
+                "customLinearDrag": 0.0,
+                "enableCustomAngularDrag": false,
+                "customAngularDrag": 0.05000000074505806,
+                "overrideBlockheadImpactDeathSpeed": false,
+                "blockheadImpactDeathSpeed": 0.0
+            },
+            "pathDriverTargetIndex": -1,
+            "hasWaypointPath": false,
+            "hasWaypointNode": false,
+            "hasPathStop": false,
+            "waypointPath": {
+                "childOrder": 0,
+                "loopMode": 0,
+                "autoCollectStops": true,
+                "includeNodeStops": false,
+                "waypointsRootName": "",
+                "stopsRootName": ""
+            },
+            "waypointNode": {
+                "mode": 0,
+                "filletRadius": 1.0,
+                "filletSegments": 8,
+                "crSamplesPerSegment": 12,
+                "centripetal": true,
+                "stopHere": false,
+                "dwellSeconds": 1.5,
+                "stopProjectionMax": 2.0
+            },
+            "pathStop": {
+                "dwellSeconds": 1.5,
+                "projectionMax": 3.0,
+                "group": ""
+            }
+        },
+        {
+            "parentIndex": 1,
+            "name": "block-rectangle (5)",
+            "localPosition": {
+                "x": -0.800000011920929,
+                "y": 1.2000000476837159,
+                "z": 0.0
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": -0.7071057558059692,
+                "z": 0.0,
+                "w": 0.7071078419685364
+            },
+            "localScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "Wood",
+            "active": true,
+            "prefabId": "wood-block-rectangle",
+            "overrides": {
+                "allowBombDrop": true,
+                "enableImpactFracture": false,
+                "impactThreshold": 2.0,
+                "rearmCooldown": 0.5,
+                "enableCustomFriction": false,
+                "customFriction": 0.6000000238418579,
+                "enableCustomMass": false,
+                "customMass": 1.0,
+                "enableCustomLinearDrag": false,
+                "customLinearDrag": 0.0,
+                "enableCustomAngularDrag": false,
+                "customAngularDrag": 0.05000000074505806,
+                "overrideBlockheadImpactDeathSpeed": false,
+                "blockheadImpactDeathSpeed": 0.0
+            },
+            "pathDriverTargetIndex": -1,
+            "hasWaypointPath": false,
+            "hasWaypointNode": false,
+            "hasPathStop": false,
+            "waypointPath": {
+                "childOrder": 0,
+                "loopMode": 0,
+                "autoCollectStops": true,
+                "includeNodeStops": false,
+                "waypointsRootName": "",
+                "stopsRootName": ""
+            },
+            "waypointNode": {
+                "mode": 0,
+                "filletRadius": 1.0,
+                "filletSegments": 8,
+                "crSamplesPerSegment": 12,
+                "centripetal": true,
+                "stopHere": false,
+                "dwellSeconds": 1.5,
+                "stopProjectionMax": 2.0
+            },
+            "pathStop": {
+                "dwellSeconds": 1.5,
+                "projectionMax": 3.0,
+                "group": ""
+            }
+        },
+        {
+            "parentIndex": 1,
+            "name": "block-rectangle (1)",
+            "localPosition": {
+                "x": 0.0,
+                "y": 0.4000000059604645,
+                "z": 0.0
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": -0.7071068286895752,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "localScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "Wood",
+            "active": true,
+            "prefabId": "wood-block-rectangle",
+            "overrides": {
+                "allowBombDrop": true,
+                "enableImpactFracture": false,
+                "impactThreshold": 2.0,
+                "rearmCooldown": 0.5,
+                "enableCustomFriction": false,
+                "customFriction": 0.6000000238418579,
+                "enableCustomMass": false,
+                "customMass": 1.0,
+                "enableCustomLinearDrag": false,
+                "customLinearDrag": 0.0,
+                "enableCustomAngularDrag": false,
+                "customAngularDrag": 0.05000000074505806,
+                "overrideBlockheadImpactDeathSpeed": false,
+                "blockheadImpactDeathSpeed": 0.0
+            },
+            "pathDriverTargetIndex": -1,
+            "hasWaypointPath": false,
+            "hasWaypointNode": false,
+            "hasPathStop": false,
+            "waypointPath": {
+                "childOrder": 0,
+                "loopMode": 0,
+                "autoCollectStops": true,
+                "includeNodeStops": false,
+                "waypointsRootName": "",
+                "stopsRootName": ""
+            },
+            "waypointNode": {
+                "mode": 0,
+                "filletRadius": 1.0,
+                "filletSegments": 8,
+                "crSamplesPerSegment": 12,
+                "centripetal": true,
+                "stopHere": false,
+                "dwellSeconds": 1.5,
+                "stopProjectionMax": 2.0
+            },
+            "pathStop": {
+                "dwellSeconds": 1.5,
+                "projectionMax": 3.0,
+                "group": ""
+            }
+        },
+        {
+            "parentIndex": 1,
+            "name": "block-rectangle (2)",
+            "localPosition": {
+                "x": 0.800000011920929,
+                "y": 0.4000000059604645,
+                "z": 0.0
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": -0.7071057558059692,
+                "z": 0.0,
+                "w": 0.7071078419685364
+            },
+            "localScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "Wood",
+            "active": true,
+            "prefabId": "wood-block-rectangle",
+            "overrides": {
+                "allowBombDrop": true,
+                "enableImpactFracture": false,
+                "impactThreshold": 2.0,
+                "rearmCooldown": 0.5,
+                "enableCustomFriction": false,
+                "customFriction": 0.6000000238418579,
+                "enableCustomMass": false,
+                "customMass": 1.0,
+                "enableCustomLinearDrag": false,
+                "customLinearDrag": 0.0,
+                "enableCustomAngularDrag": false,
+                "customAngularDrag": 0.05000000074505806,
+                "overrideBlockheadImpactDeathSpeed": false,
+                "blockheadImpactDeathSpeed": 0.0
+            },
+            "pathDriverTargetIndex": -1,
+            "hasWaypointPath": false,
+            "hasWaypointNode": false,
+            "hasPathStop": false,
+            "waypointPath": {
+                "childOrder": 0,
+                "loopMode": 0,
+                "autoCollectStops": true,
+                "includeNodeStops": false,
+                "waypointsRootName": "",
+                "stopsRootName": ""
+            },
+            "waypointNode": {
+                "mode": 0,
+                "filletRadius": 1.0,
+                "filletSegments": 8,
+                "crSamplesPerSegment": 12,
+                "centripetal": true,
+                "stopHere": false,
+                "dwellSeconds": 1.5,
+                "stopProjectionMax": 2.0
+            },
+            "pathStop": {
+                "dwellSeconds": 1.5,
+                "projectionMax": 3.0,
+                "group": ""
+            }
+        },
+        {
+            "parentIndex": 1,
+            "name": "Blockhead-Cube",
+            "localPosition": {
                 "x": 0.0,
                 "y": 1.2000000476837159,
                 "z": 0.0
             },
-            "rotation": {
+            "localRotation": {
                 "x": 0.0,
                 "y": -1.0,
                 "z": 0.0,
                 "w": 0.0000014603137969970704
             },
-            "scale": {
+            "localScale": {
                 "x": 1.0,
                 "y": 1.0,
                 "z": 1.0
             },
             "tag": "Blockhead",
+            "active": true,
+            "prefabId": "Blockhead-Cube",
             "overrides": {
                 "allowBombDrop": true,
                 "enableImpactFracture": false,
@@ -73,27 +472,57 @@
                 "customAngularDrag": 0.05000000074505806,
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
+            },
+            "pathDriverTargetIndex": -1,
+            "hasWaypointPath": false,
+            "hasWaypointNode": false,
+            "hasPathStop": false,
+            "waypointPath": {
+                "childOrder": 0,
+                "loopMode": 0,
+                "autoCollectStops": true,
+                "includeNodeStops": false,
+                "waypointsRootName": "",
+                "stopsRootName": ""
+            },
+            "waypointNode": {
+                "mode": 0,
+                "filletRadius": 1.0,
+                "filletSegments": 8,
+                "crSamplesPerSegment": 12,
+                "centripetal": true,
+                "stopHere": false,
+                "dwellSeconds": 1.5,
+                "stopProjectionMax": 2.0
+            },
+            "pathStop": {
+                "dwellSeconds": 1.5,
+                "projectionMax": 3.0,
+                "group": ""
             }
         },
         {
-            "prefabId": "StopSign",
-            "position": {
-                "x": 1.399999976158142,
-                "y": 0.0,
-                "z": -1.399999976158142
+            "parentIndex": 1,
+            "name": "wood-block-plate-xlarge (2)",
+            "localPosition": {
+                "x": 0.4000000059604645,
+                "y": 0.9000000357627869,
+                "z": 0.0
             },
-            "rotation": {
+            "localRotation": {
                 "x": 0.0,
                 "y": 0.0,
                 "z": 0.0,
                 "w": 1.0
             },
-            "scale": {
+            "localScale": {
                 "x": 1.0,
                 "y": 1.0,
                 "z": 1.0
             },
-            "tag": "",
+            "tag": "Wood",
+            "active": true,
+            "prefabId": "wood-block-plate-xlarge",
             "overrides": {
                 "allowBombDrop": true,
                 "enableImpactFracture": false,
@@ -109,27 +538,387 @@
                 "customAngularDrag": 0.05000000074505806,
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
+            },
+            "pathDriverTargetIndex": -1,
+            "hasWaypointPath": false,
+            "hasWaypointNode": false,
+            "hasPathStop": false,
+            "waypointPath": {
+                "childOrder": 0,
+                "loopMode": 0,
+                "autoCollectStops": true,
+                "includeNodeStops": false,
+                "waypointsRootName": "",
+                "stopsRootName": ""
+            },
+            "waypointNode": {
+                "mode": 0,
+                "filletRadius": 1.0,
+                "filletSegments": 8,
+                "crSamplesPerSegment": 12,
+                "centripetal": true,
+                "stopHere": false,
+                "dwellSeconds": 1.5,
+                "stopProjectionMax": 2.0
+            },
+            "pathStop": {
+                "dwellSeconds": 1.5,
+                "projectionMax": 3.0,
+                "group": ""
             }
         },
         {
-            "prefabId": "TrafficLight",
-            "position": {
+            "parentIndex": 1,
+            "name": "wood-block-plate-xlarge (1)",
+            "localPosition": {
+                "x": -0.4000000059604645,
+                "y": 1.899999976158142,
+                "z": 0.0
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "localScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "Wood",
+            "active": true,
+            "prefabId": "wood-block-plate-xlarge",
+            "overrides": {
+                "allowBombDrop": true,
+                "enableImpactFracture": false,
+                "impactThreshold": 2.0,
+                "rearmCooldown": 0.5,
+                "enableCustomFriction": false,
+                "customFriction": 0.6000000238418579,
+                "enableCustomMass": false,
+                "customMass": 1.0,
+                "enableCustomLinearDrag": false,
+                "customLinearDrag": 0.0,
+                "enableCustomAngularDrag": false,
+                "customAngularDrag": 0.05000000074505806,
+                "overrideBlockheadImpactDeathSpeed": false,
+                "blockheadImpactDeathSpeed": 0.0
+            },
+            "pathDriverTargetIndex": -1,
+            "hasWaypointPath": false,
+            "hasWaypointNode": false,
+            "hasPathStop": false,
+            "waypointPath": {
+                "childOrder": 0,
+                "loopMode": 0,
+                "autoCollectStops": true,
+                "includeNodeStops": false,
+                "waypointsRootName": "",
+                "stopsRootName": ""
+            },
+            "waypointNode": {
+                "mode": 0,
+                "filletRadius": 1.0,
+                "filletSegments": 8,
+                "crSamplesPerSegment": 12,
+                "centripetal": true,
+                "stopHere": false,
+                "dwellSeconds": 1.5,
+                "stopProjectionMax": 2.0
+            },
+            "pathStop": {
+                "dwellSeconds": 1.5,
+                "projectionMax": 3.0,
+                "group": ""
+            }
+        },
+        {
+            "parentIndex": 1,
+            "name": "wood-block-cube (2)",
+            "localPosition": {
+                "x": 0.0,
+                "y": 1.600000023841858,
+                "z": 0.0
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "localScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "Wood",
+            "active": true,
+            "prefabId": "wood-block-cube",
+            "overrides": {
+                "allowBombDrop": true,
+                "enableImpactFracture": false,
+                "impactThreshold": 2.0,
+                "rearmCooldown": 0.5,
+                "enableCustomFriction": false,
+                "customFriction": 0.6000000238418579,
+                "enableCustomMass": false,
+                "customMass": 1.0,
+                "enableCustomLinearDrag": false,
+                "customLinearDrag": 0.0,
+                "enableCustomAngularDrag": false,
+                "customAngularDrag": 0.05000000074505806,
+                "overrideBlockheadImpactDeathSpeed": false,
+                "blockheadImpactDeathSpeed": 0.0
+            },
+            "pathDriverTargetIndex": -1,
+            "hasWaypointPath": false,
+            "hasWaypointNode": false,
+            "hasPathStop": false,
+            "waypointPath": {
+                "childOrder": 0,
+                "loopMode": 0,
+                "autoCollectStops": true,
+                "includeNodeStops": false,
+                "waypointsRootName": "",
+                "stopsRootName": ""
+            },
+            "waypointNode": {
+                "mode": 0,
+                "filletRadius": 1.0,
+                "filletSegments": 8,
+                "crSamplesPerSegment": 12,
+                "centripetal": true,
+                "stopHere": false,
+                "dwellSeconds": 1.5,
+                "stopProjectionMax": 2.0
+            },
+            "pathStop": {
+                "dwellSeconds": 1.5,
+                "projectionMax": 3.0,
+                "group": ""
+            }
+        },
+        {
+            "parentIndex": 1,
+            "name": "wood-block-plate-small",
+            "localPosition": {
+                "x": -0.800000011920929,
+                "y": 1.7000000476837159,
+                "z": 0.0
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "localScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "Wood",
+            "active": true,
+            "prefabId": "wood-block-plate-small",
+            "overrides": {
+                "allowBombDrop": true,
+                "enableImpactFracture": false,
+                "impactThreshold": 2.0,
+                "rearmCooldown": 0.5,
+                "enableCustomFriction": false,
+                "customFriction": 0.6000000238418579,
+                "enableCustomMass": false,
+                "customMass": 1.0,
+                "enableCustomLinearDrag": false,
+                "customLinearDrag": 0.0,
+                "enableCustomAngularDrag": false,
+                "customAngularDrag": 0.05000000074505806,
+                "overrideBlockheadImpactDeathSpeed": false,
+                "blockheadImpactDeathSpeed": 0.0
+            },
+            "pathDriverTargetIndex": -1,
+            "hasWaypointPath": false,
+            "hasWaypointNode": false,
+            "hasPathStop": false,
+            "waypointPath": {
+                "childOrder": 0,
+                "loopMode": 0,
+                "autoCollectStops": true,
+                "includeNodeStops": false,
+                "waypointsRootName": "",
+                "stopsRootName": ""
+            },
+            "waypointNode": {
+                "mode": 0,
+                "filletRadius": 1.0,
+                "filletSegments": 8,
+                "crSamplesPerSegment": 12,
+                "centripetal": true,
+                "stopHere": false,
+                "dwellSeconds": 1.5,
+                "stopProjectionMax": 2.0
+            },
+            "pathStop": {
+                "dwellSeconds": 1.5,
+                "projectionMax": 3.0,
+                "group": ""
+            }
+        },
+        {
+            "parentIndex": 0,
+            "name": "Breakables",
+            "localPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "localScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "",
+            "active": true,
+            "prefabId": "",
+            "overrides": {
+                "allowBombDrop": true,
+                "enableImpactFracture": false,
+                "impactThreshold": 2.0,
+                "rearmCooldown": 0.5,
+                "enableCustomFriction": false,
+                "customFriction": 0.6000000238418579,
+                "enableCustomMass": false,
+                "customMass": 1.0,
+                "enableCustomLinearDrag": false,
+                "customLinearDrag": 0.0,
+                "enableCustomAngularDrag": false,
+                "customAngularDrag": 0.05000000074505806,
+                "overrideBlockheadImpactDeathSpeed": false,
+                "blockheadImpactDeathSpeed": 0.0
+            },
+            "pathDriverTargetIndex": -1,
+            "hasWaypointPath": false,
+            "hasWaypointNode": false,
+            "hasPathStop": false,
+            "waypointPath": {
+                "childOrder": 0,
+                "loopMode": 0,
+                "autoCollectStops": true,
+                "includeNodeStops": false,
+                "waypointsRootName": "",
+                "stopsRootName": ""
+            },
+            "waypointNode": {
+                "mode": 0,
+                "filletRadius": 1.0,
+                "filletSegments": 8,
+                "crSamplesPerSegment": 12,
+                "centripetal": true,
+                "stopHere": false,
+                "dwellSeconds": 1.5,
+                "stopProjectionMax": 2.0
+            },
+            "pathStop": {
+                "dwellSeconds": 1.5,
+                "projectionMax": 3.0,
+                "group": ""
+            }
+        },
+        {
+            "parentIndex": 11,
+            "name": "StopSign",
+            "localPosition": {
+                "x": 1.399999976158142,
+                "y": 0.0,
+                "z": -1.399999976158142
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "localScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "",
+            "active": true,
+            "prefabId": "StopSign",
+            "overrides": {
+                "allowBombDrop": true,
+                "enableImpactFracture": false,
+                "impactThreshold": 2.0,
+                "rearmCooldown": 0.5,
+                "enableCustomFriction": false,
+                "customFriction": 0.6000000238418579,
+                "enableCustomMass": false,
+                "customMass": 1.0,
+                "enableCustomLinearDrag": false,
+                "customLinearDrag": 0.0,
+                "enableCustomAngularDrag": false,
+                "customAngularDrag": 0.05000000074505806,
+                "overrideBlockheadImpactDeathSpeed": false,
+                "blockheadImpactDeathSpeed": 0.0
+            },
+            "pathDriverTargetIndex": -1,
+            "hasWaypointPath": false,
+            "hasWaypointNode": false,
+            "hasPathStop": false,
+            "waypointPath": {
+                "childOrder": 0,
+                "loopMode": 0,
+                "autoCollectStops": true,
+                "includeNodeStops": false,
+                "waypointsRootName": "",
+                "stopsRootName": ""
+            },
+            "waypointNode": {
+                "mode": 0,
+                "filletRadius": 1.0,
+                "filletSegments": 8,
+                "crSamplesPerSegment": 12,
+                "centripetal": true,
+                "stopHere": false,
+                "dwellSeconds": 1.5,
+                "stopProjectionMax": 2.0
+            },
+            "pathStop": {
+                "dwellSeconds": 1.5,
+                "projectionMax": 3.0,
+                "group": ""
+            }
+        },
+        {
+            "parentIndex": 11,
+            "name": "TrafficLight01",
+            "localPosition": {
                 "x": -1.3999978303909302,
                 "y": 0.0,
                 "z": 1.399999976158142
             },
-            "rotation": {
+            "localRotation": {
                 "x": 4.116242416363214e-11,
                 "y": -0.9999999403953552,
                 "z": 6.011005706137095e-17,
                 "w": 0.0003467557835392654
             },
-            "scale": {
+            "localScale": {
                 "x": 1.0,
                 "y": 1.0,
                 "z": 1.0
             },
             "tag": "",
+            "active": true,
+            "prefabId": "TrafficLight",
             "overrides": {
                 "allowBombDrop": true,
                 "enableImpactFracture": false,
@@ -145,27 +934,57 @@
                 "customAngularDrag": 0.05000000074505806,
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
+            },
+            "pathDriverTargetIndex": -1,
+            "hasWaypointPath": false,
+            "hasWaypointNode": false,
+            "hasPathStop": false,
+            "waypointPath": {
+                "childOrder": 0,
+                "loopMode": 0,
+                "autoCollectStops": true,
+                "includeNodeStops": false,
+                "waypointsRootName": "",
+                "stopsRootName": ""
+            },
+            "waypointNode": {
+                "mode": 0,
+                "filletRadius": 1.0,
+                "filletSegments": 8,
+                "crSamplesPerSegment": 12,
+                "centripetal": true,
+                "stopHere": false,
+                "dwellSeconds": 1.5,
+                "stopProjectionMax": 2.0
+            },
+            "pathStop": {
+                "dwellSeconds": 1.5,
+                "projectionMax": 3.0,
+                "group": ""
             }
         },
         {
-            "prefabId": "StreetLight",
-            "position": {
+            "parentIndex": 11,
+            "name": "StreetLight01",
+            "localPosition": {
                 "x": 1.5,
                 "y": 0.0,
                 "z": 0.0
             },
-            "rotation": {
+            "localRotation": {
                 "x": 0.0,
                 "y": 0.0000014603137969970704,
                 "z": 0.0,
                 "w": 1.0
             },
-            "scale": {
+            "localScale": {
                 "x": 1.0,
                 "y": 1.0,
                 "z": 1.0
             },
             "tag": "",
+            "active": true,
+            "prefabId": "StreetLight",
             "overrides": {
                 "allowBombDrop": true,
                 "enableImpactFracture": false,
@@ -181,27 +1000,57 @@
                 "customAngularDrag": 0.05000000074505806,
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
+            },
+            "pathDriverTargetIndex": -1,
+            "hasWaypointPath": false,
+            "hasWaypointNode": false,
+            "hasPathStop": false,
+            "waypointPath": {
+                "childOrder": 0,
+                "loopMode": 0,
+                "autoCollectStops": true,
+                "includeNodeStops": false,
+                "waypointsRootName": "",
+                "stopsRootName": ""
+            },
+            "waypointNode": {
+                "mode": 0,
+                "filletRadius": 1.0,
+                "filletSegments": 8,
+                "crSamplesPerSegment": 12,
+                "centripetal": true,
+                "stopHere": false,
+                "dwellSeconds": 1.5,
+                "stopProjectionMax": 2.0
+            },
+            "pathStop": {
+                "dwellSeconds": 1.5,
+                "projectionMax": 3.0,
+                "group": ""
             }
         },
         {
-            "prefabId": "FencePanel",
-            "position": {
+            "parentIndex": 11,
+            "name": "FencePanel",
+            "localPosition": {
                 "x": -1.5,
                 "y": 0.0,
                 "z": 0.0
             },
-            "rotation": {
+            "localRotation": {
                 "x": 0.0,
                 "y": -0.707105815410614,
                 "z": 0.0,
                 "w": 0.7071077823638916
             },
-            "scale": {
+            "localScale": {
                 "x": 1.0,
                 "y": 1.0,
                 "z": 1.0
             },
             "tag": "",
+            "active": true,
+            "prefabId": "FencePanel",
             "overrides": {
                 "allowBombDrop": true,
                 "enableImpactFracture": false,
@@ -217,27 +1066,57 @@
                 "customAngularDrag": 0.05000000074505806,
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
+            },
+            "pathDriverTargetIndex": -1,
+            "hasWaypointPath": false,
+            "hasWaypointNode": false,
+            "hasPathStop": false,
+            "waypointPath": {
+                "childOrder": 0,
+                "loopMode": 0,
+                "autoCollectStops": true,
+                "includeNodeStops": false,
+                "waypointsRootName": "",
+                "stopsRootName": ""
+            },
+            "waypointNode": {
+                "mode": 0,
+                "filletRadius": 1.0,
+                "filletSegments": 8,
+                "crSamplesPerSegment": 12,
+                "centripetal": true,
+                "stopHere": false,
+                "dwellSeconds": 1.5,
+                "stopProjectionMax": 2.0
+            },
+            "pathStop": {
+                "dwellSeconds": 1.5,
+                "projectionMax": 3.0,
+                "group": ""
             }
         },
         {
-            "prefabId": "FencePost",
-            "position": {
+            "parentIndex": 11,
+            "name": "FencePost",
+            "localPosition": {
                 "x": -1.5,
                 "y": 0.0,
                 "z": 0.699999988079071
             },
-            "rotation": {
+            "localRotation": {
                 "x": 0.0,
                 "y": -0.707105815410614,
                 "z": 0.0,
                 "w": 0.7071077823638916
             },
-            "scale": {
+            "localScale": {
                 "x": 1.0,
                 "y": 1.0,
                 "z": 1.0
             },
             "tag": "",
+            "active": true,
+            "prefabId": "FencePost",
             "overrides": {
                 "allowBombDrop": true,
                 "enableImpactFracture": false,
@@ -253,27 +1132,57 @@
                 "customAngularDrag": 0.05000000074505806,
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
+            },
+            "pathDriverTargetIndex": -1,
+            "hasWaypointPath": false,
+            "hasWaypointNode": false,
+            "hasPathStop": false,
+            "waypointPath": {
+                "childOrder": 0,
+                "loopMode": 0,
+                "autoCollectStops": true,
+                "includeNodeStops": false,
+                "waypointsRootName": "",
+                "stopsRootName": ""
+            },
+            "waypointNode": {
+                "mode": 0,
+                "filletRadius": 1.0,
+                "filletSegments": 8,
+                "crSamplesPerSegment": 12,
+                "centripetal": true,
+                "stopHere": false,
+                "dwellSeconds": 1.5,
+                "stopProjectionMax": 2.0
+            },
+            "pathStop": {
+                "dwellSeconds": 1.5,
+                "projectionMax": 3.0,
+                "group": ""
             }
         },
         {
-            "prefabId": "FencePost",
-            "position": {
+            "parentIndex": 11,
+            "name": "FencePost (1)",
+            "localPosition": {
                 "x": -1.5,
                 "y": 0.0,
                 "z": -0.699999988079071
             },
-            "rotation": {
+            "localRotation": {
                 "x": 0.0,
                 "y": -0.707105815410614,
                 "z": 0.0,
                 "w": 0.7071077823638916
             },
-            "scale": {
+            "localScale": {
                 "x": 1.0,
                 "y": 1.0,
                 "z": 1.0
             },
             "tag": "",
+            "active": true,
+            "prefabId": "FencePost",
             "overrides": {
                 "allowBombDrop": true,
                 "enableImpactFracture": false,
@@ -289,27 +1198,57 @@
                 "customAngularDrag": 0.05000000074505806,
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
+            },
+            "pathDriverTargetIndex": -1,
+            "hasWaypointPath": false,
+            "hasWaypointNode": false,
+            "hasPathStop": false,
+            "waypointPath": {
+                "childOrder": 0,
+                "loopMode": 0,
+                "autoCollectStops": true,
+                "includeNodeStops": false,
+                "waypointsRootName": "",
+                "stopsRootName": ""
+            },
+            "waypointNode": {
+                "mode": 0,
+                "filletRadius": 1.0,
+                "filletSegments": 8,
+                "crSamplesPerSegment": 12,
+                "centripetal": true,
+                "stopHere": false,
+                "dwellSeconds": 1.5,
+                "stopProjectionMax": 2.0
+            },
+            "pathStop": {
+                "dwellSeconds": 1.5,
+                "projectionMax": 3.0,
+                "group": ""
             }
         },
         {
-            "prefabId": "ConstructionCone",
-            "position": {
+            "parentIndex": 11,
+            "name": "ConstructionCone",
+            "localPosition": {
                 "x": -0.09999998658895493,
                 "y": 0.0,
                 "z": -1.0
             },
-            "rotation": {
+            "localRotation": {
                 "x": 0.0,
                 "y": 0.0,
                 "z": 0.0,
                 "w": 1.0
             },
-            "scale": {
+            "localScale": {
                 "x": 1.0,
                 "y": 1.0,
                 "z": 1.0
             },
             "tag": "",
+            "active": true,
+            "prefabId": "ConstructionCone",
             "overrides": {
                 "allowBombDrop": true,
                 "enableImpactFracture": false,
@@ -325,27 +1264,57 @@
                 "customAngularDrag": 0.05000000074505806,
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
+            },
+            "pathDriverTargetIndex": -1,
+            "hasWaypointPath": false,
+            "hasWaypointNode": false,
+            "hasPathStop": false,
+            "waypointPath": {
+                "childOrder": 0,
+                "loopMode": 0,
+                "autoCollectStops": true,
+                "includeNodeStops": false,
+                "waypointsRootName": "",
+                "stopsRootName": ""
+            },
+            "waypointNode": {
+                "mode": 0,
+                "filletRadius": 1.0,
+                "filletSegments": 8,
+                "crSamplesPerSegment": 12,
+                "centripetal": true,
+                "stopHere": false,
+                "dwellSeconds": 1.5,
+                "stopProjectionMax": 2.0
+            },
+            "pathStop": {
+                "dwellSeconds": 1.5,
+                "projectionMax": 3.0,
+                "group": ""
             }
         },
         {
-            "prefabId": "Tree",
-            "position": {
+            "parentIndex": 11,
+            "name": "Tree-04",
+            "localPosition": {
                 "x": -0.6000000238418579,
                 "y": 0.0,
                 "z": 1.2000000476837159
             },
-            "rotation": {
+            "localRotation": {
                 "x": 0.0,
                 "y": 0.0,
                 "z": 0.0,
                 "w": 1.0
             },
-            "scale": {
+            "localScale": {
                 "x": 1.0,
                 "y": 1.0,
                 "z": 1.0
             },
             "tag": "",
+            "active": true,
+            "prefabId": "Tree-04",
             "overrides": {
                 "allowBombDrop": true,
                 "enableImpactFracture": false,
@@ -361,27 +1330,57 @@
                 "customAngularDrag": 0.05000000074505806,
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
+            },
+            "pathDriverTargetIndex": -1,
+            "hasWaypointPath": false,
+            "hasWaypointNode": false,
+            "hasPathStop": false,
+            "waypointPath": {
+                "childOrder": 0,
+                "loopMode": 0,
+                "autoCollectStops": true,
+                "includeNodeStops": false,
+                "waypointsRootName": "",
+                "stopsRootName": ""
+            },
+            "waypointNode": {
+                "mode": 0,
+                "filletRadius": 1.0,
+                "filletSegments": 8,
+                "crSamplesPerSegment": 12,
+                "centripetal": true,
+                "stopHere": false,
+                "dwellSeconds": 1.5,
+                "stopProjectionMax": 2.0
+            },
+            "pathStop": {
+                "dwellSeconds": 1.5,
+                "projectionMax": 3.0,
+                "group": ""
             }
         },
         {
-            "prefabId": "Tree",
-            "position": {
+            "parentIndex": 11,
+            "name": "Tree-04 (1)",
+            "localPosition": {
                 "x": 0.5999999642372131,
                 "y": 0.0,
                 "z": 1.2000000476837159
             },
-            "rotation": {
+            "localRotation": {
                 "x": 0.0,
                 "y": 0.0,
                 "z": 0.0,
                 "w": 1.0
             },
-            "scale": {
+            "localScale": {
                 "x": 1.0,
                 "y": 1.0,
                 "z": 1.0
             },
             "tag": "",
+            "active": true,
+            "prefabId": "Tree-04",
             "overrides": {
                 "allowBombDrop": true,
                 "enableImpactFracture": false,
@@ -397,27 +1396,57 @@
                 "customAngularDrag": 0.05000000074505806,
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
+            },
+            "pathDriverTargetIndex": -1,
+            "hasWaypointPath": false,
+            "hasWaypointNode": false,
+            "hasPathStop": false,
+            "waypointPath": {
+                "childOrder": 0,
+                "loopMode": 0,
+                "autoCollectStops": true,
+                "includeNodeStops": false,
+                "waypointsRootName": "",
+                "stopsRootName": ""
+            },
+            "waypointNode": {
+                "mode": 0,
+                "filletRadius": 1.0,
+                "filletSegments": 8,
+                "crSamplesPerSegment": 12,
+                "centripetal": true,
+                "stopHere": false,
+                "dwellSeconds": 1.5,
+                "stopProjectionMax": 2.0
+            },
+            "pathStop": {
+                "dwellSeconds": 1.5,
+                "projectionMax": 3.0,
+                "group": ""
             }
         },
         {
-            "prefabId": "ConstructionBarrier",
-            "position": {
+            "parentIndex": 11,
+            "name": "ConstructionBarrier",
+            "localPosition": {
                 "x": 2.6000001430511476,
                 "y": -0.30000001192092898,
                 "z": 0.0
             },
-            "rotation": {
+            "localRotation": {
                 "x": 0.0,
                 "y": 0.0,
                 "z": 0.0,
                 "w": 1.0
             },
-            "scale": {
+            "localScale": {
                 "x": 1.0,
                 "y": 1.0,
                 "z": 1.0
             },
             "tag": "",
+            "active": true,
+            "prefabId": "ConstructionBarrier",
             "overrides": {
                 "allowBombDrop": true,
                 "enableImpactFracture": false,
@@ -433,27 +1462,57 @@
                 "customAngularDrag": 0.05000000074505806,
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
+            },
+            "pathDriverTargetIndex": -1,
+            "hasWaypointPath": false,
+            "hasWaypointNode": false,
+            "hasPathStop": false,
+            "waypointPath": {
+                "childOrder": 0,
+                "loopMode": 0,
+                "autoCollectStops": true,
+                "includeNodeStops": false,
+                "waypointsRootName": "",
+                "stopsRootName": ""
+            },
+            "waypointNode": {
+                "mode": 0,
+                "filletRadius": 1.0,
+                "filletSegments": 8,
+                "crSamplesPerSegment": 12,
+                "centripetal": true,
+                "stopHere": false,
+                "dwellSeconds": 1.5,
+                "stopProjectionMax": 2.0
+            },
+            "pathStop": {
+                "dwellSeconds": 1.5,
+                "projectionMax": 3.0,
+                "group": ""
             }
         },
         {
-            "prefabId": "ConstructionBarrier",
-            "position": {
+            "parentIndex": 11,
+            "name": "ConstructionBarrier (1)",
+            "localPosition": {
                 "x": -2.6000001430511476,
                 "y": -0.30000001192092898,
                 "z": 0.0
             },
-            "rotation": {
+            "localRotation": {
                 "x": 0.0,
                 "y": 0.0,
                 "z": 0.0,
                 "w": 1.0
             },
-            "scale": {
+            "localScale": {
                 "x": 1.0,
                 "y": 1.0,
                 "z": 1.0
             },
             "tag": "",
+            "active": true,
+            "prefabId": "ConstructionBarrier",
             "overrides": {
                 "allowBombDrop": true,
                 "enableImpactFracture": false,
@@ -469,27 +1528,189 @@
                 "customAngularDrag": 0.05000000074505806,
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
+            },
+            "pathDriverTargetIndex": -1,
+            "hasWaypointPath": false,
+            "hasWaypointNode": false,
+            "hasPathStop": false,
+            "waypointPath": {
+                "childOrder": 0,
+                "loopMode": 0,
+                "autoCollectStops": true,
+                "includeNodeStops": false,
+                "waypointsRootName": "",
+                "stopsRootName": ""
+            },
+            "waypointNode": {
+                "mode": 0,
+                "filletRadius": 1.0,
+                "filletSegments": 8,
+                "crSamplesPerSegment": 12,
+                "centripetal": true,
+                "stopHere": false,
+                "dwellSeconds": 1.5,
+                "stopProjectionMax": 2.0
+            },
+            "pathStop": {
+                "dwellSeconds": 1.5,
+                "projectionMax": 3.0,
+                "group": ""
             }
         },
         {
-            "prefabId": "Pegdoll-ConstructionWorker-01",
-            "position": {
+            "parentIndex": 0,
+            "name": "Vehicles",
+            "localPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "localScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "",
+            "active": true,
+            "prefabId": "",
+            "overrides": {
+                "allowBombDrop": true,
+                "enableImpactFracture": false,
+                "impactThreshold": 2.0,
+                "rearmCooldown": 0.5,
+                "enableCustomFriction": false,
+                "customFriction": 0.6000000238418579,
+                "enableCustomMass": false,
+                "customMass": 1.0,
+                "enableCustomLinearDrag": false,
+                "customLinearDrag": 0.0,
+                "enableCustomAngularDrag": false,
+                "customAngularDrag": 0.05000000074505806,
+                "overrideBlockheadImpactDeathSpeed": false,
+                "blockheadImpactDeathSpeed": 0.0
+            },
+            "pathDriverTargetIndex": -1,
+            "hasWaypointPath": false,
+            "hasWaypointNode": false,
+            "hasPathStop": false,
+            "waypointPath": {
+                "childOrder": 0,
+                "loopMode": 0,
+                "autoCollectStops": true,
+                "includeNodeStops": false,
+                "waypointsRootName": "",
+                "stopsRootName": ""
+            },
+            "waypointNode": {
+                "mode": 0,
+                "filletRadius": 1.0,
+                "filletSegments": 8,
+                "crSamplesPerSegment": 12,
+                "centripetal": true,
+                "stopHere": false,
+                "dwellSeconds": 1.5,
+                "stopProjectionMax": 2.0
+            },
+            "pathStop": {
+                "dwellSeconds": 1.5,
+                "projectionMax": 3.0,
+                "group": ""
+            }
+        },
+        {
+            "parentIndex": 0,
+            "name": "PegDolls",
+            "localPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "localScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "",
+            "active": true,
+            "prefabId": "",
+            "overrides": {
+                "allowBombDrop": true,
+                "enableImpactFracture": false,
+                "impactThreshold": 2.0,
+                "rearmCooldown": 0.5,
+                "enableCustomFriction": false,
+                "customFriction": 0.6000000238418579,
+                "enableCustomMass": false,
+                "customMass": 1.0,
+                "enableCustomLinearDrag": false,
+                "customLinearDrag": 0.0,
+                "enableCustomAngularDrag": false,
+                "customAngularDrag": 0.05000000074505806,
+                "overrideBlockheadImpactDeathSpeed": false,
+                "blockheadImpactDeathSpeed": 0.0
+            },
+            "pathDriverTargetIndex": -1,
+            "hasWaypointPath": false,
+            "hasWaypointNode": false,
+            "hasPathStop": false,
+            "waypointPath": {
+                "childOrder": 0,
+                "loopMode": 0,
+                "autoCollectStops": true,
+                "includeNodeStops": false,
+                "waypointsRootName": "",
+                "stopsRootName": ""
+            },
+            "waypointNode": {
+                "mode": 0,
+                "filletRadius": 1.0,
+                "filletSegments": 8,
+                "crSamplesPerSegment": 12,
+                "centripetal": true,
+                "stopHere": false,
+                "dwellSeconds": 1.5,
+                "stopProjectionMax": 2.0
+            },
+            "pathStop": {
+                "dwellSeconds": 1.5,
+                "projectionMax": 3.0,
+                "group": ""
+            }
+        },
+        {
+            "parentIndex": 24,
+            "name": "Pegdoll-ConstructionWorker-01",
+            "localPosition": {
                 "x": -0.7681179642677307,
                 "y": 0.0,
                 "z": -1.0218663215637208
             },
-            "rotation": {
+            "localRotation": {
                 "x": 0.0,
                 "y": 0.0,
                 "z": 0.0,
                 "w": 1.0
             },
-            "scale": {
+            "localScale": {
                 "x": 1.0,
                 "y": 1.0,
                 "z": 1.0
             },
             "tag": "",
+            "active": true,
+            "prefabId": "Pegdoll-ConstructionWorker-01",
             "overrides": {
                 "allowBombDrop": true,
                 "enableImpactFracture": false,
@@ -505,27 +1726,57 @@
                 "customAngularDrag": 0.05000000074505806,
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
+            },
+            "pathDriverTargetIndex": -1,
+            "hasWaypointPath": false,
+            "hasWaypointNode": false,
+            "hasPathStop": false,
+            "waypointPath": {
+                "childOrder": 0,
+                "loopMode": 0,
+                "autoCollectStops": true,
+                "includeNodeStops": false,
+                "waypointsRootName": "",
+                "stopsRootName": ""
+            },
+            "waypointNode": {
+                "mode": 0,
+                "filletRadius": 1.0,
+                "filletSegments": 8,
+                "crSamplesPerSegment": 12,
+                "centripetal": true,
+                "stopHere": false,
+                "dwellSeconds": 1.5,
+                "stopProjectionMax": 2.0
+            },
+            "pathStop": {
+                "dwellSeconds": 1.5,
+                "projectionMax": 3.0,
+                "group": ""
             }
         },
         {
-            "prefabId": "Pegdoll-ConstructionWorker-02",
-            "position": {
+            "parentIndex": 24,
+            "name": "Pegdoll-ConstructionWorker-02",
+            "localPosition": {
                 "x": 0.5318820476531982,
                 "y": 0.0,
                 "z": -1.0218663215637208
             },
-            "rotation": {
+            "localRotation": {
                 "x": 0.0,
                 "y": 0.0,
                 "z": 0.0,
                 "w": 1.0
             },
-            "scale": {
+            "localScale": {
                 "x": 1.0,
                 "y": 1.0,
                 "z": 1.0
             },
             "tag": "",
+            "active": true,
+            "prefabId": "Pegdoll-ConstructionWorker-02",
             "overrides": {
                 "allowBombDrop": true,
                 "enableImpactFracture": false,
@@ -541,7 +1792,101 @@
                 "customAngularDrag": 0.05000000074505806,
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
+            },
+            "pathDriverTargetIndex": -1,
+            "hasWaypointPath": false,
+            "hasWaypointNode": false,
+            "hasPathStop": false,
+            "waypointPath": {
+                "childOrder": 0,
+                "loopMode": 0,
+                "autoCollectStops": true,
+                "includeNodeStops": false,
+                "waypointsRootName": "",
+                "stopsRootName": ""
+            },
+            "waypointNode": {
+                "mode": 0,
+                "filletRadius": 1.0,
+                "filletSegments": 8,
+                "crSamplesPerSegment": 12,
+                "centripetal": true,
+                "stopHere": false,
+                "dwellSeconds": 1.5,
+                "stopProjectionMax": 2.0
+            },
+            "pathStop": {
+                "dwellSeconds": 1.5,
+                "projectionMax": 3.0,
+                "group": ""
+            }
+        },
+        {
+            "parentIndex": -1,
+            "name": "ProbeVolumePerSceneData",
+            "localPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "localScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "",
+            "active": true,
+            "prefabId": "",
+            "overrides": {
+                "allowBombDrop": true,
+                "enableImpactFracture": false,
+                "impactThreshold": 2.0,
+                "rearmCooldown": 0.5,
+                "enableCustomFriction": false,
+                "customFriction": 0.6000000238418579,
+                "enableCustomMass": false,
+                "customMass": 1.0,
+                "enableCustomLinearDrag": false,
+                "customLinearDrag": 0.0,
+                "enableCustomAngularDrag": false,
+                "customAngularDrag": 0.05000000074505806,
+                "overrideBlockheadImpactDeathSpeed": false,
+                "blockheadImpactDeathSpeed": 0.0
+            },
+            "pathDriverTargetIndex": -1,
+            "hasWaypointPath": false,
+            "hasWaypointNode": false,
+            "hasPathStop": false,
+            "waypointPath": {
+                "childOrder": 0,
+                "loopMode": 0,
+                "autoCollectStops": true,
+                "includeNodeStops": false,
+                "waypointsRootName": "",
+                "stopsRootName": ""
+            },
+            "waypointNode": {
+                "mode": 0,
+                "filletRadius": 1.0,
+                "filletSegments": 8,
+                "crSamplesPerSegment": 12,
+                "centripetal": true,
+                "stopHere": false,
+                "dwellSeconds": 1.5,
+                "stopProjectionMax": 2.0
+            },
+            "pathStop": {
+                "dwellSeconds": 1.5,
+                "projectionMax": 3.0,
+                "group": ""
             }
         }
-    ]
+    ],
+    "placements": []
 }
