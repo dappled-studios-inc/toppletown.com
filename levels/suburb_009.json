@@ -3,7 +3,7 @@
     "levelId": "suburb_009",
     "displayName": "Level_009_Suburb",
     "worldName": "Suburb",
-    "minAppVersion": "0.3.0",
+    "minAppVersion": "0.3.2",
     "environmentScene": "suburb-env-6x6-01",
     "cameraYaw": 45.0,
     "cameraPitch": 35.0,
@@ -77,7 +77,10 @@
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
             },
+            "rigidbodyConstraints": -1,
             "pathDriverTargetIndex": -1,
+            "hasComponentOverrides": false,
+            "componentOverrides": [],
             "hasWaypointPath": false,
             "hasWaypointNode": false,
             "hasPathStop": false,
@@ -143,7 +146,10 @@
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
             },
+            "rigidbodyConstraints": -1,
             "pathDriverTargetIndex": -1,
+            "hasComponentOverrides": false,
+            "componentOverrides": [],
             "hasWaypointPath": false,
             "hasWaypointNode": false,
             "hasPathStop": false,
@@ -209,7 +215,16 @@
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
             },
+            "rigidbodyConstraints": -1,
             "pathDriverTargetIndex": -1,
+            "hasComponentOverrides": true,
+            "componentOverrides": [
+                {
+                    "componentType": "ToppleTown.Blocks.FractureBlockData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "jsonData": "{\"fragmentsParent\":{\"instanceID\":-9678026},\"mainMeshRenderer\":{\"instanceID\":0},\"mainCollider\":{\"instanceID\":0},\"destroyOnFracture\":true,\"cleanupDelay\":0.10000000149011612,\"fractureParticleSystem\":{\"instanceID\":-9678498},\"unparentParticleOnPlay\":true,\"fractureParticleLifetime\":3.0}",
+                    "isAddedComponent": false
+                }
+            ],
             "hasWaypointPath": false,
             "hasWaypointNode": false,
             "hasPathStop": false,
@@ -275,7 +290,16 @@
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
             },
+            "rigidbodyConstraints": -1,
             "pathDriverTargetIndex": -1,
+            "hasComponentOverrides": true,
+            "componentOverrides": [
+                {
+                    "componentType": "ToppleTown.Blocks.FractureBlockData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "jsonData": "{\"fragmentsParent\":{\"instanceID\":-9677528},\"mainMeshRenderer\":{\"instanceID\":0},\"mainCollider\":{\"instanceID\":0},\"destroyOnFracture\":true,\"cleanupDelay\":0.10000000149011612,\"fractureParticleSystem\":{\"instanceID\":-9678000},\"unparentParticleOnPlay\":true,\"fractureParticleLifetime\":3.0}",
+                    "isAddedComponent": false
+                }
+            ],
             "hasWaypointPath": false,
             "hasWaypointNode": false,
             "hasPathStop": false,
@@ -341,7 +365,16 @@
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
             },
+            "rigidbodyConstraints": -1,
             "pathDriverTargetIndex": -1,
+            "hasComponentOverrides": true,
+            "componentOverrides": [
+                {
+                    "componentType": "ToppleTown.Blocks.FractureBlockData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "jsonData": "{\"fragmentsParent\":{\"instanceID\":-9679332},\"mainMeshRenderer\":{\"instanceID\":0},\"mainCollider\":{\"instanceID\":0},\"destroyOnFracture\":true,\"cleanupDelay\":0.10000000149011612,\"fractureParticleSystem\":{\"instanceID\":-9679532},\"unparentParticleOnPlay\":true,\"fractureParticleLifetime\":3.0}",
+                    "isAddedComponent": false
+                }
+            ],
             "hasWaypointPath": false,
             "hasWaypointNode": false,
             "hasPathStop": false,
@@ -407,7 +440,16 @@
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
             },
+            "rigidbodyConstraints": -1,
             "pathDriverTargetIndex": -1,
+            "hasComponentOverrides": true,
+            "componentOverrides": [
+                {
+                    "componentType": "BlockheadFX, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "jsonData": "{\"idleFX\":{\"vfxPrefab\":{\"instanceID\":0},\"anchor\":{\"instanceID\":0},\"orientation\":0,\"localAxisAsUp\":0,\"followPositionOnly\":false,\"parentToAnchor\":false,\"upOffset\":0.0,\"autoDestroySeconds\":4.0,\"sfxClips\":[],\"volume\":0.8999999761581421},\"worriedFX\":{\"vfxPrefab\":{\"instanceID\":0},\"anchor\":{\"instanceID\":0},\"orientation\":0,\"localAxisAsUp\":0,\"followPositionOnly\":false,\"parentToAnchor\":false,\"upOffset\":0.0,\"autoDestroySeconds\":4.0,\"sfxClips\":[{\"instanceID\":59784}],\"volume\":0.8999999761581421},\"fallingFX\":{\"vfxPrefab\":{\"instanceID\":0},\"anchor\":{\"instanceID\":0},\"orientation\":0,\"localAxisAsUp\":0,\"followPositionOnly\":false,\"parentToAnchor\":false,\"upOffset\":0.0,\"autoDestroySeconds\":4.0,\"sfxClips\":[{\"instanceID\":59786}],\"volume\":0.8999999761581421},\"laughFX\":{\"vfxPrefab\":{\"instanceID\":0},\"anchor\":{\"instanceID\":0},\"orientation\":0,\"localAxisAsUp\":0,\"followPositionOnly\":false,\"parentToAnchor\":false,\"upOffset\":0.0,\"autoDestroySeconds\":4.0,\"sfxClips\":[{\"instanceID\":59788}],\"volume\":0.8999999761581421},\"blinkFX\":{\"vfxPrefab\":{\"instanceID\":0},\"anchor\":{\"instanceID\":0},\"orientation\":0,\"localAxisAsUp\":0,\"followPositionOnly\":false,\"parentToAnchor\":false,\"upOffset\":0.0,\"autoDestroySeconds\":4.0,\"sfxClips\":[{\"instanceID\":59790}],\"volume\":1.0},\"lookFX\":{\"vfxPrefab\":{\"instanceID\":0},\"anchor\":{\"instanceID\":0},\"orientation\":0,\"localAxisAsUp\":0,\"followPositionOnly\":false,\"parentToAnchor\":false,\"upOffset\":0.0,\"autoDestroySeconds\":4.0,\"sfxClips\":[{\"instanceID\":60626}],\"volume\":1.0},\"lookBackToIdleFX\":{\"vfxPrefab\":{\"instanceID\":0},\"anchor\":{\"instanceID\":0},\"orientation\":0,\"localAxisAsUp\":0,\"followPositionOnly\":false,\"parentToAnchor\":false,\"upOffset\":0.0,\"autoDestroySeconds\":4.0,\"sfxClips\":[{\"instanceID\":60628}],\"volume\":1.0},\"lookReactionChance\":30,\"blowingFX\":{\"vfxPrefab\":{\"instanceID\":59792},\"anchor\":{\"instanceID\":-9679304},\"orientation\":0,\"localAxisAsUp\":0,\"followPositionOnly\":false,\"parentToAnchor\":false,\"upOffset\":0.0,\"autoDestroySeconds\":3.0,\"sfxClips\":[{\"instanceID\":59796}],\"volume\":0.8999999761581421},\"deadFX\":{\"vfxPrefab\":{\"instanceID\":59798},\"anchor\":{\"instanceID\":0},\"orientation\":2,\"localAxisAsUp\":0,\"followPositionOnly\":true,\"parentToAnchor\":false,\"upOffset\":0.0,\"autoDestroySeconds\":0.0,\"sfxClips\":[{\"instanceID\":59800}],\"volume\":1.0},\"hitFX\":{\"vfxPrefab\":{\"instanceID\":0},\"anchor\":{\"instanceID\":0},\"orientation\":0,\"localAxisAsUp\":0,\"followPositionOnly\":false,\"parentToAnchor\":false,\"upOffset\":0.0,\"autoDestroySeconds\":4.0,\"sfxClips\":[{\"instanceID\":59802},{\"instanceID\":59804},{\"instanceID\":59806},{\"instanceID\":59808},{\"instanceID\":59810},{\"instanceID\":59812},{\"instanceID\":59814},{\"instanceID\":59816}],\"volume\":0.8999999761581421},\"hitImpulseThreshold\":30.0,\"explosionJumpFX\":{\"vfxPrefab\":{\"instanceID\":0},\"anchor\":{\"instanceID\":0},\"orientation\":0,\"localAxisAsUp\":0,\"followPositionOnly\":false,\"parentToAnchor\":false,\"upOffset\":0.0,\"autoDestroySeconds\":4.0,\"sfxClips\":[{\"instanceID\":59802},{\"instanceID\":59804},{\"instanceID\":59806},{\"instanceID\":59808},{\"instanceID\":59810},{\"instanceID\":59812},{\"instanceID\":59814},{\"instanceID\":59816}],\"volume\":0.8999999761581421},\"hitCooldownSeconds\":0.30000001192092898,\"allowStrongHitOverride\":true,\"strongHitMultiplier\":3.0,\"oneShotSource\":{\"instanceID\":0},\"debugHitSfx\":true}",
+                    "isAddedComponent": false
+                }
+            ],
             "hasWaypointPath": false,
             "hasWaypointNode": false,
             "hasPathStop": false,
@@ -473,7 +515,16 @@
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
             },
+            "rigidbodyConstraints": -1,
             "pathDriverTargetIndex": -1,
+            "hasComponentOverrides": true,
+            "componentOverrides": [
+                {
+                    "componentType": "BlockheadFX, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "jsonData": "{\"idleFX\":{\"vfxPrefab\":{\"instanceID\":0},\"anchor\":{\"instanceID\":0},\"orientation\":0,\"localAxisAsUp\":0,\"followPositionOnly\":false,\"parentToAnchor\":false,\"upOffset\":0.0,\"autoDestroySeconds\":4.0,\"sfxClips\":[],\"volume\":0.8999999761581421},\"worriedFX\":{\"vfxPrefab\":{\"instanceID\":0},\"anchor\":{\"instanceID\":0},\"orientation\":0,\"localAxisAsUp\":0,\"followPositionOnly\":false,\"parentToAnchor\":false,\"upOffset\":0.0,\"autoDestroySeconds\":4.0,\"sfxClips\":[{\"instanceID\":59784}],\"volume\":0.8999999761581421},\"fallingFX\":{\"vfxPrefab\":{\"instanceID\":0},\"anchor\":{\"instanceID\":0},\"orientation\":0,\"localAxisAsUp\":0,\"followPositionOnly\":false,\"parentToAnchor\":false,\"upOffset\":0.0,\"autoDestroySeconds\":4.0,\"sfxClips\":[{\"instanceID\":59786}],\"volume\":0.8999999761581421},\"laughFX\":{\"vfxPrefab\":{\"instanceID\":0},\"anchor\":{\"instanceID\":0},\"orientation\":0,\"localAxisAsUp\":0,\"followPositionOnly\":false,\"parentToAnchor\":false,\"upOffset\":0.0,\"autoDestroySeconds\":4.0,\"sfxClips\":[{\"instanceID\":59788}],\"volume\":0.8999999761581421},\"blinkFX\":{\"vfxPrefab\":{\"instanceID\":0},\"anchor\":{\"instanceID\":0},\"orientation\":0,\"localAxisAsUp\":0,\"followPositionOnly\":false,\"parentToAnchor\":false,\"upOffset\":0.0,\"autoDestroySeconds\":4.0,\"sfxClips\":[{\"instanceID\":59790}],\"volume\":1.0},\"lookFX\":{\"vfxPrefab\":{\"instanceID\":0},\"anchor\":{\"instanceID\":0},\"orientation\":0,\"localAxisAsUp\":0,\"followPositionOnly\":false,\"parentToAnchor\":false,\"upOffset\":0.0,\"autoDestroySeconds\":4.0,\"sfxClips\":[{\"instanceID\":60626}],\"volume\":1.0},\"lookBackToIdleFX\":{\"vfxPrefab\":{\"instanceID\":0},\"anchor\":{\"instanceID\":0},\"orientation\":0,\"localAxisAsUp\":0,\"followPositionOnly\":false,\"parentToAnchor\":false,\"upOffset\":0.0,\"autoDestroySeconds\":4.0,\"sfxClips\":[{\"instanceID\":60628}],\"volume\":1.0},\"lookReactionChance\":30,\"blowingFX\":{\"vfxPrefab\":{\"instanceID\":59792},\"anchor\":{\"instanceID\":-9679604},\"orientation\":0,\"localAxisAsUp\":0,\"followPositionOnly\":false,\"parentToAnchor\":false,\"upOffset\":0.0,\"autoDestroySeconds\":3.0,\"sfxClips\":[{\"instanceID\":59796}],\"volume\":0.8999999761581421},\"deadFX\":{\"vfxPrefab\":{\"instanceID\":59798},\"anchor\":{\"instanceID\":0},\"orientation\":2,\"localAxisAsUp\":0,\"followPositionOnly\":true,\"parentToAnchor\":false,\"upOffset\":0.0,\"autoDestroySeconds\":0.0,\"sfxClips\":[{\"instanceID\":59800}],\"volume\":1.0},\"hitFX\":{\"vfxPrefab\":{\"instanceID\":0},\"anchor\":{\"instanceID\":0},\"orientation\":0,\"localAxisAsUp\":0,\"followPositionOnly\":false,\"parentToAnchor\":false,\"upOffset\":0.0,\"autoDestroySeconds\":4.0,\"sfxClips\":[{\"instanceID\":59802},{\"instanceID\":59804},{\"instanceID\":59806},{\"instanceID\":59808},{\"instanceID\":59810},{\"instanceID\":59812},{\"instanceID\":59814},{\"instanceID\":59816}],\"volume\":0.8999999761581421},\"hitImpulseThreshold\":30.0,\"explosionJumpFX\":{\"vfxPrefab\":{\"instanceID\":0},\"anchor\":{\"instanceID\":0},\"orientation\":0,\"localAxisAsUp\":0,\"followPositionOnly\":false,\"parentToAnchor\":false,\"upOffset\":0.0,\"autoDestroySeconds\":4.0,\"sfxClips\":[{\"instanceID\":59802},{\"instanceID\":59804},{\"instanceID\":59806},{\"instanceID\":59808},{\"instanceID\":59810},{\"instanceID\":59812},{\"instanceID\":59814},{\"instanceID\":59816}],\"volume\":0.8999999761581421},\"hitCooldownSeconds\":0.30000001192092898,\"allowStrongHitOverride\":true,\"strongHitMultiplier\":3.0,\"oneShotSource\":{\"instanceID\":0},\"debugHitSfx\":true}",
+                    "isAddedComponent": false
+                }
+            ],
             "hasWaypointPath": false,
             "hasWaypointNode": false,
             "hasPathStop": false,
@@ -539,7 +590,16 @@
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
             },
+            "rigidbodyConstraints": -1,
             "pathDriverTargetIndex": -1,
+            "hasComponentOverrides": true,
+            "componentOverrides": [
+                {
+                    "componentType": "ToppleTown.Blocks.FractureBlockData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "jsonData": "{\"fragmentsParent\":{\"instanceID\":-9677248},\"mainMeshRenderer\":{\"instanceID\":0},\"mainCollider\":{\"instanceID\":0},\"destroyOnFracture\":true,\"cleanupDelay\":0.10000000149011612,\"fractureParticleSystem\":{\"instanceID\":-9677400},\"unparentParticleOnPlay\":true,\"fractureParticleLifetime\":3.0}",
+                    "isAddedComponent": false
+                }
+            ],
             "hasWaypointPath": false,
             "hasWaypointNode": false,
             "hasPathStop": false,
@@ -605,7 +665,16 @@
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
             },
+            "rigidbodyConstraints": -1,
             "pathDriverTargetIndex": -1,
+            "hasComponentOverrides": true,
+            "componentOverrides": [
+                {
+                    "componentType": "ToppleTown.Blocks.FractureBlockData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "jsonData": "{\"fragmentsParent\":{\"instanceID\":-9676786},\"mainMeshRenderer\":{\"instanceID\":0},\"mainCollider\":{\"instanceID\":0},\"destroyOnFracture\":true,\"cleanupDelay\":0.10000000149011612,\"fractureParticleSystem\":{\"instanceID\":-9677098},\"unparentParticleOnPlay\":true,\"fractureParticleLifetime\":3.0}",
+                    "isAddedComponent": false
+                }
+            ],
             "hasWaypointPath": false,
             "hasWaypointNode": false,
             "hasPathStop": false,
@@ -671,7 +740,16 @@
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
             },
+            "rigidbodyConstraints": -1,
             "pathDriverTargetIndex": -1,
+            "hasComponentOverrides": true,
+            "componentOverrides": [
+                {
+                    "componentType": "ToppleTown.Blocks.FractureBlockData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "jsonData": "{\"fragmentsParent\":{\"instanceID\":-9678524},\"mainMeshRenderer\":{\"instanceID\":0},\"mainCollider\":{\"instanceID\":0},\"destroyOnFracture\":true,\"cleanupDelay\":0.10000000149011612,\"fractureParticleSystem\":{\"instanceID\":-9679044},\"unparentParticleOnPlay\":true,\"fractureParticleLifetime\":3.0}",
+                    "isAddedComponent": false
+                }
+            ],
             "hasWaypointPath": false,
             "hasWaypointNode": false,
             "hasPathStop": false,
@@ -737,7 +815,10 @@
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
             },
+            "rigidbodyConstraints": -1,
             "pathDriverTargetIndex": -1,
+            "hasComponentOverrides": false,
+            "componentOverrides": [],
             "hasWaypointPath": false,
             "hasWaypointNode": false,
             "hasPathStop": false,
@@ -803,7 +884,10 @@
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
             },
+            "rigidbodyConstraints": -1,
             "pathDriverTargetIndex": -1,
+            "hasComponentOverrides": false,
+            "componentOverrides": [],
             "hasWaypointPath": false,
             "hasWaypointNode": false,
             "hasPathStop": false,
@@ -869,7 +953,10 @@
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
             },
+            "rigidbodyConstraints": -1,
             "pathDriverTargetIndex": -1,
+            "hasComponentOverrides": false,
+            "componentOverrides": [],
             "hasWaypointPath": false,
             "hasWaypointNode": false,
             "hasPathStop": false,
@@ -935,7 +1022,10 @@
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
             },
+            "rigidbodyConstraints": -1,
             "pathDriverTargetIndex": -1,
+            "hasComponentOverrides": false,
+            "componentOverrides": [],
             "hasWaypointPath": false,
             "hasWaypointNode": false,
             "hasPathStop": false,
@@ -1001,7 +1091,10 @@
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
             },
+            "rigidbodyConstraints": -1,
             "pathDriverTargetIndex": -1,
+            "hasComponentOverrides": false,
+            "componentOverrides": [],
             "hasWaypointPath": false,
             "hasWaypointNode": false,
             "hasPathStop": false,
@@ -1067,7 +1160,10 @@
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
             },
+            "rigidbodyConstraints": -1,
             "pathDriverTargetIndex": -1,
+            "hasComponentOverrides": false,
+            "componentOverrides": [],
             "hasWaypointPath": false,
             "hasWaypointNode": false,
             "hasPathStop": false,
@@ -1133,7 +1229,10 @@
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
             },
+            "rigidbodyConstraints": -1,
             "pathDriverTargetIndex": -1,
+            "hasComponentOverrides": false,
+            "componentOverrides": [],
             "hasWaypointPath": false,
             "hasWaypointNode": false,
             "hasPathStop": false,
@@ -1199,7 +1298,10 @@
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
             },
+            "rigidbodyConstraints": -1,
             "pathDriverTargetIndex": -1,
+            "hasComponentOverrides": false,
+            "componentOverrides": [],
             "hasWaypointPath": false,
             "hasWaypointNode": false,
             "hasPathStop": false,
@@ -1265,7 +1367,21 @@
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
             },
+            "rigidbodyConstraints": -1,
             "pathDriverTargetIndex": -1,
+            "hasComponentOverrides": true,
+            "componentOverrides": [
+                {
+                    "componentType": "DG.Tweening.DOTweenAnimation, Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "jsonData": "{\"updateType\":0,\"isSpeedBased\":false,\"hasOnStart\":false,\"hasOnPlay\":false,\"hasOnUpdate\":false,\"hasOnStepComplete\":false,\"hasOnComplete\":true,\"hasOnTweenCreated\":false,\"hasOnRewind\":false,\"onStart\":{\"m_PersistentCalls\":{\"m_Calls\":[]}},\"onPlay\":{\"m_PersistentCalls\":{\"m_Calls\":[]}},\"onUpdate\":{\"m_PersistentCalls\":{\"m_Calls\":[]}},\"onStepComplete\":{\"m_PersistentCalls\":{\"m_Calls\":[]}},\"onComplete\":{\"m_PersistentCalls\":{\"m_Calls\":[{\"m_Target\":{\"instanceID\":-9679052},\"m_TargetAssemblyTypeName\":\"DG.Tweening.DOTweenAnimation, Assembly-CSharp-firstpass\",\"m_MethodName\":\"RecreateTweenAndPlay\",\"m_Mode\":1,\"m_Arguments\":{\"m_ObjectArgument\":{\"instanceID\":0},\"m_ObjectArgumentAssemblyTypeName\":\"UnityEngine.Object, UnityEngine\",\"m_IntArgument\":0,\"m_FloatArgument\":0.0,\"m_StringArgument\":\"\",\"m_BoolArgument\":true},\"m_CallState\":2}]}},\"onTweenCreated\":{\"m_PersistentCalls\":{\"m_Calls\":[]}},\"onRewind\":{\"m_PersistentCalls\":{\"m_Calls\":[]}},\"targetIsSelf\":true,\"targetGO\":{\"instanceID\":0},\"tweenTargetIsTargetGO\":true,\"delay\":1.0,\"duration\":2.0,\"easeType\":30,\"easeCurve\":{\"serializedVersion\":\"2\",\"m_Curve\":[{\"serializedVersion\":\"3\",\"time\":0.0,\"value\":0.0,\"inSlope\":0.0,\"outSlope\":0.0,\"tangentMode\":0,\"weightedMode\":0,\"inWeight\":0.0,\"outWeight\":0.0},{\"serializedVersion\":\"3\",\"time\":1.0,\"value\":1.0,\"inSlope\":0.0,\"outSlope\":0.0,\"tangentMode\":0,\"weightedMode\":0,\"inWeight\":0.0,\"outWeight\":0.0}],\"m_PreInfinity\":2,\"m_PostInfinity\":2,\"m_RotationOrder\":4},\"loopType\":1,\"loops\":1,\"id\":\"\",\"isRelative\":false,\"isFrom\":false,\"isIndependentUpdate\":false,\"autoKill\":false,\"autoGenerate\":true,\"isActive\":true,\"isValid\":true,\"target\":{\"instanceID\":1563964},\"animationType\":3,\"targetType\":11,\"forcedTargetType\":0,\"autoPlay\":true,\"useTargetAsV3\":false,\"endValueFloat\":0.0,\"endValueV3\":{\"x\":0.0,\"y\":0.0,\"z\":-20.0},\"endValueV2\":{\"x\":0.0,\"y\":0.0},\"endValueColor\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"endValueString\":\"\",\"endValueRect\":{\"serializedVersion\":\"2\",\"x\":0.0,\"y\":0.0,\"width\":0.0,\"height\":0.0},\"endValueTransform\":{\"instanceID\":0},\"optionalBool0\":false,\"optionalBool1\":false,\"optionalFloat0\":0.0,\"optionalInt0\":0,\"optionalRotationMode\":0,\"optionalScrambleMode\":0,\"optionalShakeRandomnessMode\":0,\"optionalString\":\"\"}",
+                    "isAddedComponent": false
+                },
+                {
+                    "componentType": "DG.Tweening.DOTweenAnimation, Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "jsonData": "{\"updateType\":0,\"isSpeedBased\":false,\"hasOnStart\":false,\"hasOnPlay\":false,\"hasOnUpdate\":false,\"hasOnStepComplete\":false,\"hasOnComplete\":true,\"hasOnTweenCreated\":false,\"hasOnRewind\":false,\"onStart\":{\"m_PersistentCalls\":{\"m_Calls\":[]}},\"onPlay\":{\"m_PersistentCalls\":{\"m_Calls\":[]}},\"onUpdate\":{\"m_PersistentCalls\":{\"m_Calls\":[]}},\"onStepComplete\":{\"m_PersistentCalls\":{\"m_Calls\":[]}},\"onComplete\":{\"m_PersistentCalls\":{\"m_Calls\":[{\"m_Target\":{\"instanceID\":-9679050},\"m_TargetAssemblyTypeName\":\"DG.Tweening.DOTweenAnimation, Assembly-CSharp-firstpass\",\"m_MethodName\":\"RecreateTweenAndPlay\",\"m_Mode\":1,\"m_Arguments\":{\"m_ObjectArgument\":{\"instanceID\":0},\"m_ObjectArgumentAssemblyTypeName\":\"UnityEngine.Object, UnityEngine\",\"m_IntArgument\":0,\"m_FloatArgument\":0.0,\"m_StringArgument\":\"\",\"m_BoolArgument\":false},\"m_CallState\":2}]}},\"onTweenCreated\":{\"m_PersistentCalls\":{\"m_Calls\":[]}},\"onRewind\":{\"m_PersistentCalls\":{\"m_Calls\":[]}},\"targetIsSelf\":true,\"targetGO\":{\"instanceID\":0},\"tweenTargetIsTargetGO\":true,\"delay\":1.0,\"duration\":2.0,\"easeType\":30,\"easeCurve\":{\"serializedVersion\":\"2\",\"m_Curve\":[{\"serializedVersion\":\"3\",\"time\":0.0,\"value\":0.0,\"inSlope\":0.0,\"outSlope\":0.0,\"tangentMode\":0,\"weightedMode\":0,\"inWeight\":0.0,\"outWeight\":0.0},{\"serializedVersion\":\"3\",\"time\":1.0,\"value\":1.0,\"inSlope\":0.0,\"outSlope\":0.0,\"tangentMode\":0,\"weightedMode\":0,\"inWeight\":0.0,\"outWeight\":0.0}],\"m_PreInfinity\":2,\"m_PostInfinity\":2,\"m_RotationOrder\":4},\"loopType\":0,\"loops\":1,\"id\":\"\",\"isRelative\":false,\"isFrom\":false,\"isIndependentUpdate\":false,\"autoKill\":false,\"autoGenerate\":true,\"isActive\":true,\"isValid\":true,\"target\":{\"instanceID\":1563964},\"animationType\":3,\"targetType\":11,\"forcedTargetType\":0,\"autoPlay\":false,\"useTargetAsV3\":false,\"endValueFloat\":0.0,\"endValueV3\":{\"x\":0.0,\"y\":0.0,\"z\":20.0},\"endValueV2\":{\"x\":0.0,\"y\":0.0},\"endValueColor\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"endValueString\":\"\",\"endValueRect\":{\"serializedVersion\":\"2\",\"x\":0.0,\"y\":0.0,\"width\":0.0,\"height\":0.0},\"endValueTransform\":{\"instanceID\":0},\"optionalBool0\":false,\"optionalBool1\":false,\"optionalFloat0\":0.0,\"optionalInt0\":0,\"optionalRotationMode\":0,\"optionalScrambleMode\":0,\"optionalShakeRandomnessMode\":0,\"optionalString\":\"\"}",
+                    "isAddedComponent": false
+                }
+            ],
             "hasWaypointPath": false,
             "hasWaypointNode": false,
             "hasPathStop": false,
@@ -1331,7 +1447,10 @@
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
             },
+            "rigidbodyConstraints": -1,
             "pathDriverTargetIndex": -1,
+            "hasComponentOverrides": false,
+            "componentOverrides": [],
             "hasWaypointPath": false,
             "hasWaypointNode": false,
             "hasPathStop": false,
@@ -1397,7 +1516,10 @@
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
             },
+            "rigidbodyConstraints": -1,
             "pathDriverTargetIndex": -1,
+            "hasComponentOverrides": false,
+            "componentOverrides": [],
             "hasWaypointPath": false,
             "hasWaypointNode": false,
             "hasPathStop": false,
@@ -1463,7 +1585,21 @@
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
             },
+            "rigidbodyConstraints": -1,
             "pathDriverTargetIndex": 22,
+            "hasComponentOverrides": true,
+            "componentOverrides": [
+                {
+                    "componentType": "PathDriver, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "jsonData": "{\"path\":{\"instanceID\":1564024},\"startMode\":1,\"snapSearchRadius\":25.0,\"startSpecificDistance\":0.0,\"startMarkerName\":\"\",\"randomStartMinSpacing\":5.0,\"alignTransformOnStart\":true,\"loop\":true,\"baseSpeed\":1.0,\"accel\":0.6000000238418579,\"decel\":0.6000000238418579,\"obeyStops\":true,\"stopLookAhead\":1.0,\"postStopIgnoreMeters\":0.4000000059604645,\"orientToPath\":true,\"lookAheadSeconds\":0.30000001192092898,\"freezeFacingNearTargetMeters\":0.6000000238418579,\"yawOnly\":true,\"laneOffset\":0.0,\"heightOffset\":0.0,\"visualRoot\":{\"instanceID\":0},\"visualRotationOffsetEuler\":{\"x\":0.0,\"y\":0.0,\"z\":0.0},\"obstacleSensor\":{\"instanceID\":-9677414},\"checkObstacles\":true,\"latchOnBlock\":true,\"obstacleDecel\":2.0,\"obstacleMask\":{\"serializedVersion\":\"2\",\"m_Bits\":132096},\"obstacleLookAhead\":2.200000047683716,\"obstacleRadius\":0.3499999940395355,\"obstacleVerticalPad\":0.5,\"obstacleCheckInterval\":0.5,\"cueRise\":6.0,\"cueFall\":4.0}",
+                    "isAddedComponent": false
+                },
+                {
+                    "componentType": "CarMotion, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "jsonData": "{\"visualRoot\":{\"instanceID\":0},\"body\":{\"instanceID\":-9677448},\"wheel_FL\":{\"instanceID\":-9677456},\"wheel_FR\":{\"instanceID\":-9677464},\"rearAxle\":{\"instanceID\":-9677440},\"steer_FL\":{\"instanceID\":0},\"steer_FR\":{\"instanceID\":0},\"spinAxis\":0,\"wheelRadiusMeters\":0.30000001192092898,\"frontSteer\":true,\"maxSteerAngle\":90.0,\"steerSign\":1.0,\"steerFollow\":25.0,\"bob\":true,\"bobAmpMax\":0.009999999776482582,\"bobFreqBase\":1.5,\"bobFreqAtSpeed\":7.0,\"rollMaxDeg\":2.5,\"rollFreq\":25.0,\"rollSpeedScale\":1.0,\"brakePitchDeg\":6.0,\"accelPitchDeg\":5.0,\"bodyFollow\":8.0,\"brakeStopFadeSpeed\":0.30000001192092898,\"accelCruiseFade\":1.0,\"engineLoopSfx\":{\"instanceID\":63286},\"engineIdleVolume\":0.3499999940395355,\"engineDriveVolume\":0.5,\"engineIdlePitch\":0.75,\"engineRampSpeed\":4.0,\"maxActiveEngines\":2}",
+                    "isAddedComponent": false
+                }
+            ],
             "hasWaypointPath": false,
             "hasWaypointNode": false,
             "hasPathStop": false,
@@ -1529,7 +1665,10 @@
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
             },
+            "rigidbodyConstraints": -1,
             "pathDriverTargetIndex": -1,
+            "hasComponentOverrides": false,
+            "componentOverrides": [],
             "hasWaypointPath": true,
             "hasWaypointNode": false,
             "hasPathStop": false,
@@ -1595,7 +1734,10 @@
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
             },
+            "rigidbodyConstraints": -1,
             "pathDriverTargetIndex": -1,
+            "hasComponentOverrides": false,
+            "componentOverrides": [],
             "hasWaypointPath": false,
             "hasWaypointNode": true,
             "hasPathStop": false,
@@ -1661,7 +1803,10 @@
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
             },
+            "rigidbodyConstraints": -1,
             "pathDriverTargetIndex": -1,
+            "hasComponentOverrides": false,
+            "componentOverrides": [],
             "hasWaypointPath": false,
             "hasWaypointNode": true,
             "hasPathStop": false,
@@ -1727,7 +1872,10 @@
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
             },
+            "rigidbodyConstraints": -1,
             "pathDriverTargetIndex": -1,
+            "hasComponentOverrides": false,
+            "componentOverrides": [],
             "hasWaypointPath": false,
             "hasWaypointNode": true,
             "hasPathStop": false,
@@ -1793,7 +1941,10 @@
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
             },
+            "rigidbodyConstraints": -1,
             "pathDriverTargetIndex": -1,
+            "hasComponentOverrides": false,
+            "componentOverrides": [],
             "hasWaypointPath": false,
             "hasWaypointNode": true,
             "hasPathStop": false,
@@ -1859,7 +2010,10 @@
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
             },
+            "rigidbodyConstraints": -1,
             "pathDriverTargetIndex": -1,
+            "hasComponentOverrides": false,
+            "componentOverrides": [],
             "hasWaypointPath": false,
             "hasWaypointNode": true,
             "hasPathStop": false,
@@ -1925,7 +2079,10 @@
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
             },
+            "rigidbodyConstraints": -1,
             "pathDriverTargetIndex": -1,
+            "hasComponentOverrides": false,
+            "componentOverrides": [],
             "hasWaypointPath": false,
             "hasWaypointNode": true,
             "hasPathStop": false,
@@ -1991,7 +2148,10 @@
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
             },
+            "rigidbodyConstraints": -1,
             "pathDriverTargetIndex": -1,
+            "hasComponentOverrides": false,
+            "componentOverrides": [],
             "hasWaypointPath": false,
             "hasWaypointNode": true,
             "hasPathStop": false,
@@ -2057,7 +2217,10 @@
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
             },
+            "rigidbodyConstraints": -1,
             "pathDriverTargetIndex": -1,
+            "hasComponentOverrides": false,
+            "componentOverrides": [],
             "hasWaypointPath": false,
             "hasWaypointNode": true,
             "hasPathStop": false,
@@ -2123,7 +2286,10 @@
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
             },
+            "rigidbodyConstraints": -1,
             "pathDriverTargetIndex": -1,
+            "hasComponentOverrides": false,
+            "componentOverrides": [],
             "hasWaypointPath": false,
             "hasWaypointNode": false,
             "hasPathStop": false,
@@ -2189,7 +2355,10 @@
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
             },
+            "rigidbodyConstraints": -1,
             "pathDriverTargetIndex": -1,
+            "hasComponentOverrides": false,
+            "componentOverrides": [],
             "hasWaypointPath": false,
             "hasWaypointNode": false,
             "hasPathStop": true,
@@ -2255,7 +2424,10 @@
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
             },
+            "rigidbodyConstraints": -1,
             "pathDriverTargetIndex": -1,
+            "hasComponentOverrides": false,
+            "componentOverrides": [],
             "hasWaypointPath": false,
             "hasWaypointNode": false,
             "hasPathStop": false,
@@ -2321,7 +2493,10 @@
                 "overrideBlockheadImpactDeathSpeed": false,
                 "blockheadImpactDeathSpeed": 0.0
             },
+            "rigidbodyConstraints": -1,
             "pathDriverTargetIndex": -1,
+            "hasComponentOverrides": false,
+            "componentOverrides": [],
             "hasWaypointPath": false,
             "hasWaypointNode": false,
             "hasPathStop": false,
