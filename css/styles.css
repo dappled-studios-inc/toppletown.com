@@ -1052,7 +1052,22 @@ h1, h2, h3, h4 {
     padding-top: var(--spacing-lg);
     text-align: center;
     font-size: 0.875rem;
+}
+
+.footer-bottom p {
     opacity: 0.6;
+}
+
+.footer-bottom .pixelpicked-badge {
+    display: inline-block;
+    margin-bottom: var(--spacing-md);
+    line-height: 0;
+}
+
+.footer-bottom .pixelpicked-badge img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 /* Lightbox */
