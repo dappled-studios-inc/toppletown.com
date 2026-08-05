@@ -6,7 +6,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Initialize all components
     initNavigation();
-    initParallax();
     initCarousel();
     initLightbox();
     initSmoothScroll();
@@ -42,99 +41,6 @@ function initNavigation() {
             navLinks.classList.remove('active');
         }
     });
-}
-
-/**
- * Parallax Effect for Hero Section
- * Responds to mouse movement and scroll
- */
-function initParallax() {
-    const hero = document.querySelector('.hero');
-    const parallaxContainer = document.querySelector('.parallax-container');
-    const layers = document.querySelectorAll('.parallax-layer');
-    
-    if (!hero || !parallaxContainer || layers.length === 0) return;
-    
-    // Check if device supports hover (not touch-only)
-    const supportsHover = window.matchMedia('(hover: hover)').matches;
-    
-    // Mouse movement parallax
-    if (supportsHover) {
-        let mouseX = 0;
-        let mouseY = 0;
-        let currentX = 0;
-        let currentY = 0;
-        let animationFrame = null;
-        
-        hero.addEventListener('mousemove', function(e) {
-            const rect = hero.getBoundingClientRect();
-            // Calculate mouse position relative to center (-1 to 1)
-            mouseX = ((e.clientX - rect.left) / rect.width - 0.5) * 2;
-            mouseY = ((e.clientY - rect.top) / rect.height - 0.5) * 2;
-        });
-        
-        hero.addEventListener('mouseleave', function() {
-            // Smoothly return to center when mouse leaves
-            mouseX = 0;
-            mouseY = 0;
-        });
-        
-        // Smooth animation loop for mouse parallax
-        function animateMouseParallax() {
-            // Lerp towards target position for smooth movement
-            currentX += (mouseX - currentX) * 0.08;
-            currentY += (mouseY - currentY) * 0.08;
-            
-            layers.forEach(layer => {
-                const depth = parseFloat(layer.dataset.depth) || 0;
-                const moveX = currentX * depth * 50; // Max 50px movement at depth 1
-                const moveY = currentY * depth * 30; // Max 30px movement at depth 1
-                
-                // Combine with scroll parallax if present
-                const scrollY = parseFloat(layer.dataset.scrollY) || 0;
-                layer.style.transform = `translate3d(${moveX}px, ${moveY + scrollY}px, 0)`;
-            });
-            
-            animationFrame = requestAnimationFrame(animateMouseParallax);
-        }
-        
-        animateMouseParallax();
-    }
-    
-    // Scroll parallax
-    let ticking = false;
-    
-    function updateScrollParallax() {
-        const scrollY = window.pageYOffset;
-        const heroHeight = hero.offsetHeight;
-        
-        // Only apply parallax when hero is in view
-        if (scrollY < heroHeight * 1.5) {
-            layers.forEach(layer => {
-                const depth = parseFloat(layer.dataset.depth) || 0;
-                // Layers move up at different speeds as you scroll down
-                const moveY = scrollY * depth * 0.5;
-                layer.dataset.scrollY = moveY;
-                
-                // If mouse parallax isn't active, apply scroll directly
-                if (!supportsHover) {
-                    layer.style.transform = `translate3d(0, ${moveY}px, 0)`;
-                }
-            });
-        }
-        
-        ticking = false;
-    }
-    
-    window.addEventListener('scroll', function() {
-        if (!ticking) {
-            requestAnimationFrame(updateScrollParallax);
-            ticking = true;
-        }
-    });
-    
-    // Initial call
-    updateScrollParallax();
 }
 
 /**

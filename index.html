@@ -9,7 +9,7 @@
     <!-- Open Graph / Social Media -->
     <meta property="og:title" content="Topple Town - Physics Puzzle Game">
     <meta property="og:description" content="Topple the Blockheads, protect the town! A charming physics puzzle game set in a cozy wooden toy world.">
-    <meta property="og:image" content="assets/splash.png">
+    <meta property="og:image" content="assets/splash-screen/splash-new.jpg">
     <meta property="og:type" content="website">
     
     <!-- Favicon -->
@@ -42,46 +42,14 @@
         </div>
     </nav>
 
-    <!-- Hero Section with Parallax Layers -->
+    <!-- Hero Section -->
     <section class="hero" id="hero">
-        <div class="parallax-container">
-            <!-- Layer 0: Background (deepest - no movement) -->
-            <div class="parallax-layer" data-depth="0">
-                <img src="assets/splash-screen/background.png" alt="" class="parallax-bg" loading="eager">
+        <div class="hero-media">
+            <img src="assets/splash-screen/splash-new.jpg" alt="Topple Town" class="hero-splash" width="3072" height="1500" loading="eager">
+            <div class="hero-content">
+                <p class="hero-tagline">Topple the Blockheads, protect the town!</p>
+                <a href="#download" class="btn btn-primary btn-large">Play Now</a>
             </div>
-            
-            <!-- Layer 1: Block Towers (slow movement) -->
-            <div class="parallax-layer" data-depth="0.08">
-                <img src="assets/splash-screen/block-tower-left.png" alt="" class="parallax-tower parallax-tower-left" loading="eager">
-                <img src="assets/splash-screen/block-tower-right.png" alt="" class="parallax-tower parallax-tower-right" loading="eager">
-            </div>
-            
-            <!-- Layer 2: Characters BEHIND title (triangle top-left, cylinder top-right) -->
-            <div class="parallax-layer" data-depth="0.12">
-                <img src="assets/splash-screen/blockhead-triangle.png" alt="" class="parallax-character parallax-triangle" loading="eager">
-                <img src="assets/splash-screen/blockhead-cylinder.png" alt="" class="parallax-character parallax-cylinder" loading="eager">
-            </div>
-            
-            <!-- Layer 3: Title -->
-            <div class="parallax-layer" data-depth="0.18">
-                <img src="assets/splash-screen/title.png" alt="Topple Town" class="parallax-title" loading="eager">
-            </div>
-            
-            <!-- Layer 4: Characters IN FRONT of title (cube bottom-left, bridge bottom-right) -->
-            <div class="parallax-layer" data-depth="0.25">
-                <img src="assets/splash-screen/blochead-cube.png" alt="" class="parallax-character parallax-cube" loading="eager">
-                <img src="assets/splash-screen/blockhead-bridge.png" alt="" class="parallax-character parallax-bridge" loading="eager">
-            </div>
-        </div>
-        
-        <div class="hero-content">
-            <p class="hero-tagline">Topple the Blockheads, protect the town!</p>
-            <a href="#download" class="btn btn-primary btn-large">Play Now</a>
-        </div>
-        
-        <div class="hero-scroll-indicator">
-            <span>Scroll to explore</span>
-            <div class="scroll-arrow"></div>
         </div>
     </section>
 
@@ -99,32 +67,37 @@
                 <img src="https://api.pixelpicked.com/api/badges/Jw4T2ajxiA0/live.png"
                     width="250" height="54" alt="Approved on PixelPicked" />
             </a>
-            
-            <div class="features">
-                <div class="feature-card-composite">
-                    <img src="assets/feature-1-place-bombs.png" alt="Place Bombs" class="feature-bg-image">
-                    <div class="feature-overlay-text">
-                        <h3>Place Bombs</h3>
-                        <p>Strategically position explosives to topple the Blockhead characters</p>
+
+            <div class="screenshots-carousel" id="screenshots">
+                <button class="carousel-btn carousel-prev" aria-label="Previous screenshot">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+                
+                <div class="screenshots-track">
+                    <div class="screenshot-item">
+                        <img src="assets/screenshot-9x16-v2-01.jpg" alt="Place Bombs gameplay" loading="lazy">
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="assets/screenshot-9x16-v2-02.jpg" alt="Solve Puzzles gameplay" loading="lazy">
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="assets/screenshot-9x16-v2-03.jpg" alt="Restore the Town" loading="lazy">
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="assets/screenshot-9x16-v2-04.jpg" alt="Plan Your Moves gameplay" loading="lazy">
                     </div>
                 </div>
                 
-                <div class="feature-card-composite">
-                    <img src="assets/feature-2-chain-reactions.png" alt="Physics Puzzles" class="feature-bg-image">
-                    <div class="feature-overlay-text">
-                        <h3>Physics Puzzles</h3>
-                        <p>Master gravity and momentum to create spectacular chain reactions</p>
-                    </div>
-                </div>
-                
-                <div class="feature-card-composite">
-                    <img src="assets/feature-3-keep-it-safe.png" alt="Keep it Safe" class="feature-bg-image">
-                    <div class="feature-overlay-text">
-                        <h3>Keep it Safe</h3>
-                        <p>Keep the cute wooden world of Topple Town from being hit!</p>
-                    </div>
-                </div>
+                <button class="carousel-btn carousel-next" aria-label="Next screenshot">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
             </div>
+            
+            <div class="carousel-dots"></div>
         </div>
     </section>
 
@@ -143,57 +116,6 @@
                     allowfullscreen>
                 </iframe>
             </div>
-        </div>
-    </section>
-
-    <!-- Screenshots Section -->
-    <section class="screenshots" id="screenshots">
-        <div class="container">
-            <h2 class="section-title">Screenshots</h2>
-            <p class="section-subtitle">Explore the cozy world of Topple Town</p>
-            
-            <div class="screenshots-carousel">
-                <button class="carousel-btn carousel-prev" aria-label="Previous screenshot">
-                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </button>
-                
-                <div class="screenshots-track">
-                    <div class="screenshot-item">
-                        <img src="assets/screenshot-01.png" alt="Break Blocks gameplay" loading="lazy">
-                    </div>
-                    <div class="screenshot-item">
-                        <img src="assets/screenshot-02.png" alt="Place Bombs gameplay" loading="lazy">
-                    </div>
-                    <div class="screenshot-item">
-                        <img src="assets/screenshot-03.png" alt="Perfect Topple achievement" loading="lazy">
-                    </div>
-                    <div class="screenshot-item">
-                        <img src="assets/screenshot-04.png" alt="Keep it Safe challenge" loading="lazy">
-                    </div>
-                    <div class="screenshot-item">
-                        <img src="assets/screenshot-05.png" alt="Physics Puzzles" loading="lazy">
-                    </div>
-                    <div class="screenshot-item">
-                        <img src="assets/screenshot-06.png" alt="Chain Reaction gameplay" loading="lazy">
-                    </div>
-                    <div class="screenshot-item">
-                        <img src="assets/screenshot-07.png" alt="Satisfying destruction" loading="lazy">
-                    </div>
-                    <div class="screenshot-item">
-                        <img src="assets/screenshot-08.png" alt="Cozy Toy Town overview" loading="lazy">
-                    </div>
-                </div>
-                
-                <button class="carousel-btn carousel-next" aria-label="Next screenshot">
-                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </button>
-            </div>
-            
-            <div class="carousel-dots"></div>
         </div>
     </section>
 

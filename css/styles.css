@@ -31,6 +31,9 @@
     --spacing-lg: 2rem;
     --spacing-xl: 3rem;
     --spacing-xxl: 5rem;
+
+    /* Fixed navbar clearance — splash sits flush under the bar, not tucked beneath it */
+    --nav-height: 4.65rem;
     
     /* Border Radius */
     --radius-sm: 8px;
@@ -227,120 +230,53 @@ h1, h2, h3, h4 {
     transition: all var(--transition-fast);
 }
 
-/* Hero Section */
+/* Hero Section — sized by splash aspect ratio (3072×1500), never cropped */
 .hero {
     position: relative;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    background-color: #87CEEB; /* Fallback sky blue */
+    width: 100%;
+    padding-top: var(--nav-height);
+    background-color: #87CEEB;
 }
 
-/* Parallax Container */
-.parallax-container {
-    position: absolute;
-    inset: 0;
-    z-index: 0;
-    overflow: hidden;
+.hero-media {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 3072 / 1500;
+    line-height: 0;
 }
 
-.parallax-layer {
-    position: absolute;
-    inset: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    will-change: transform;
-    transition: transform 0.1s ease-out;
-}
-
-/* Background Layer */
-.parallax-bg {
-    width: 110%;
-    height: 110%;
-    object-fit: cover;
+.hero-splash {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
     object-position: center;
 }
 
-/* Tower Layers */
-.parallax-tower {
-    position: absolute;
-    height: 90%;
-    width: auto;
-    max-width: none;
-    bottom: 0;
-}
-
-.parallax-tower-left {
-    left: -5%;
-}
-
-.parallax-tower-right {
-    right: -5%;
-}
-
-/* Character Layers */
-.parallax-character {
-    position: absolute;
-    width: auto;
-    max-width: none;
-}
-
-/* Characters BEHIND the title */
-.parallax-triangle {
-    top: 20%;
-    left: 15%;
-    height: 22%;
-}
-
-.parallax-cylinder {
-    top: 18%;
-    right: 12%;
-    height: 22%;
-}
-
-/* Characters IN FRONT of the title */
-.parallax-cube {
-    bottom: 22%;
-    left: 10%;
-    height: 28%;
-}
-
-.parallax-bridge {
-    bottom: 20%;
-    right: 8%;
-    height: 26%;
-}
-
-/* Title Layer */
-.parallax-title {
-    max-width: 70%;
-    height: auto;
-}
-
-/* Gradient overlay for better text readability */
-.parallax-container::after {
+.hero-media::after {
     content: '';
     position: absolute;
     inset: 0;
     background: linear-gradient(
         to bottom,
         rgba(0, 0, 0, 0) 0%,
-        rgba(0, 0, 0, 0) 60%,
-        rgba(0, 0, 0, 0.3) 100%
+        rgba(0, 0, 0, 0) 45%,
+        rgba(0, 0, 0, 0.28) 70%,
+        rgba(0, 0, 0, 0.2) 100%
     );
     pointer-events: none;
-    z-index: 10;
 }
 
+/* Anchor to image height so CTA sits in the gap under the logo at every width */
 .hero-content {
-    position: relative;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 80%;
+    bottom: auto;
     z-index: 20;
     text-align: center;
-    padding: var(--spacing-lg);
-    margin-top: 55vh; /* Push content below the title image */
+    padding: 0 var(--spacing-lg);
 }
 
 .hero-title {
@@ -354,10 +290,10 @@ h1, h2, h3, h4 {
 }
 
 .hero-tagline {
-    font-size: clamp(1.25rem, 3vw, 1.75rem);
+    font-size: clamp(1.375rem, 3.3vw, 1.925rem);
     color: var(--color-cream);
     font-weight: 700;
-    margin-bottom: var(--spacing-lg);
+    margin-bottom: var(--spacing-md);
     text-shadow: 
         2px 2px 0 var(--color-wood-dark),
         4px 4px 15px rgba(0, 0, 0, 0.5);
@@ -365,77 +301,42 @@ h1, h2, h3, h4 {
 }
 
 .hero-content .btn {
+    padding: 1.35rem 3.25rem;
+    font-size: 1.35rem;
+    border-radius: var(--radius-lg);
     animation: fadeInUp 0.8s ease-out 0.4s both;
 }
 
-.hero-scroll-indicator {
-    position: absolute;
-    bottom: 2rem;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 20;
-    text-align: center;
-    color: var(--color-cream);
-    font-size: 0.875rem;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-    animation: fadeIn 1s ease-out 1s both;
-}
-
-.scroll-arrow {
-    width: 24px;
-    height: 24px;
-    margin: 0.5rem auto 0;
-    border-right: 3px solid var(--color-cream);
-    border-bottom: 3px solid var(--color-cream);
-    transform: rotate(45deg);
-    animation: bounce 2s infinite;
-}
-
-/* Responsive adjustments for parallax */
+/* Portrait / narrow: image stays full-width & uncropped; CTA sits below it */
 @media (max-width: 768px) {
-    .parallax-tower {
-        display: none; /* Hide block towers on mobile */
+    .hero-media {
+        aspect-ratio: auto;
     }
-    
-    .parallax-title {
-        max-width: 90%;
-        margin-top: -10%; /* Move title up slightly */
-    }
-    
-    /* Characters behind title - shrunk 10% and positioned closer to title */
-    .parallax-triangle {
-        top: 22%;
-        left: 5%;
-        height: 14%;
-    }
-    
-    .parallax-cylinder {
-        top: 20%;
-        right: 5%;
-        height: 14%;
-    }
-    
-    /* Characters in front of title - shrunk 10% and positioned closer to title */
-    .parallax-cube {
-        bottom: 28%;
-        left: 3%;
-        height: 18%;
-    }
-    
-    .parallax-bridge {
-        bottom: 26%;
-        right: 3%;
-        height: 16%;
-    }
-    
-    .hero-content {
-        margin-top: 62vh; /* Push tagline and button further down below characters */
-    }
-}
 
-@media (min-width: 1400px) {
-    .parallax-title {
-        max-width: 50%;
+    .hero-media::after {
+        display: none;
+    }
+
+    .hero-splash {
+        height: auto;
+        aspect-ratio: 3072 / 1500;
+    }
+
+    .hero-content {
+        position: relative;
+        padding: var(--spacing-md) var(--spacing-md) var(--spacing-lg);
+        background: linear-gradient(
+            to bottom,
+            #6eb8e0 0%,
+            var(--color-cream-light) 100%
+        );
+    }
+
+    .hero-tagline {
+        color: var(--color-wood-dark);
+        text-shadow: none;
+        font-size: 1.25rem;
+        margin-bottom: var(--spacing-md);
     }
 }
 
@@ -466,116 +367,6 @@ h1, h2, h3, h4 {
     height: auto;
 }
 
-.features {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: var(--spacing-lg);
-    padding-top: var(--spacing-md);
-    justify-items: center;
-}
-
-/* Composite feature cards with image background and text overlay */
-.feature-card-composite {
-    position: relative;
-    display: inline-block;
-    width: 100%;
-    max-width: 380px;
-    margin: 0 auto;
-    transition: transform var(--transition-medium);
-}
-
-.feature-card-composite:hover {
-    transform: translateY(-8px);
-}
-
-.feature-bg-image {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-.feature-overlay-text {
-    position: absolute;
-    bottom: 12%;
-    left: 0;
-    right: 0;
-    text-align: center;
-    padding: 0 var(--spacing-lg);
-    pointer-events: none;
-}
-
-.feature-overlay-text h3 {
-    font-size: 1.375rem;
-    color: var(--color-wood-dark);
-    margin-bottom: 0.25rem;
-    font-weight: 800;
-}
-
-.feature-overlay-text p {
-    color: var(--color-text-light);
-    font-size: 0.875rem;
-    line-height: 1.4;
-    margin: 0;
-}
-
-/* Placeholder cards for missing images */
-.feature-placeholder {
-    background-color: var(--color-white);
-    border-radius: var(--radius-lg);
-    box-shadow: var(--shadow-soft);
-    min-height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.feature-placeholder-content {
-    text-align: center;
-    padding: var(--spacing-lg);
-}
-
-.feature-placeholder-content h3 {
-    font-size: 1.375rem;
-    color: var(--color-wood-dark);
-    margin-bottom: var(--spacing-xs);
-    font-weight: 800;
-}
-
-.feature-placeholder-content p {
-    color: var(--color-text-light);
-    font-size: 0.9375rem;
-    line-height: 1.4;
-    margin-bottom: var(--spacing-md);
-}
-
-.placeholder-note {
-    display: inline-block;
-    background-color: var(--color-cream);
-    color: var(--color-text-light);
-    font-size: 0.75rem;
-    padding: 0.25rem 0.75rem;
-    border-radius: var(--radius-xl);
-}
-
-/* Responsive adjustments for composite feature cards */
-@media (max-width: 768px) {
-    .feature-card-composite {
-        max-width: 320px;
-    }
-    
-    .feature-overlay-text {
-        bottom: 12%;
-    }
-    
-    .feature-overlay-text h3 {
-        font-size: 1.25rem;
-    }
-    
-    .feature-overlay-text p {
-        font-size: 0.8125rem;
-    }
-}
-
 /* Trailer Section */
 .trailer {
     padding: var(--spacing-xxl) 0;
@@ -602,27 +393,26 @@ h1, h2, h3, h4 {
     border: none;
 }
 
-/* Screenshots Section */
-.screenshots {
-    padding: var(--spacing-xxl) 0;
-    background-color: var(--color-cream);
-}
-
+/* Screenshots (inside About) */
 .screenshots-carousel {
     position: relative;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: var(--spacing-sm);
 }
 
 .screenshots-track {
     display: flex;
+    justify-content: center;
     gap: var(--spacing-md);
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scrollbar-width: none;
     -ms-overflow-style: none;
     padding: var(--spacing-sm) 0;
+    flex: 1;
+    min-width: 0;
 }
 
 .screenshots-track::-webkit-scrollbar {
@@ -1184,27 +974,6 @@ h1, h2, h3, h4 {
     }
 }
 
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-@keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-        transform: rotate(45deg) translateY(0);
-    }
-    40% {
-        transform: rotate(45deg) translateY(-10px);
-    }
-    60% {
-        transform: rotate(45deg) translateY(-5px);
-    }
-}
-
 /* Responsive */
 @media (max-width: 768px) {
     .nav-links {
@@ -1245,6 +1014,10 @@ h1, h2, h3, h4 {
     
     .screenshot-item {
         width: 160px;
+    }
+
+    .screenshots-track {
+        justify-content: flex-start;
     }
     
     .carousel-btn {
