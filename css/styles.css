@@ -447,10 +447,23 @@ h1, h2, h3, h4 {
 
 .about-description {
     max-width: 700px;
-    margin: 0 auto var(--spacing-xl);
+    margin: 0 auto var(--spacing-md);
     text-align: center;
     font-size: 1.125rem;
     color: var(--color-text-light);
+}
+
+.pixelpicked-badge {
+    display: block;
+    width: fit-content;
+    margin: 0 auto var(--spacing-xl);
+    line-height: 0;
+}
+
+.pixelpicked-badge img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .features {
@@ -1052,22 +1065,7 @@ h1, h2, h3, h4 {
     padding-top: var(--spacing-lg);
     text-align: center;
     font-size: 0.875rem;
-}
-
-.footer-bottom p {
     opacity: 0.6;
-}
-
-.footer-bottom .pixelpicked-badge {
-    display: inline-block;
-    margin-bottom: var(--spacing-md);
-    line-height: 0;
-}
-
-.footer-bottom .pixelpicked-badge img {
-    display: block;
-    max-width: 100%;
-    height: auto;
 }
 
 /* Lightbox */
